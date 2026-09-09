@@ -1,0 +1,21 @@
+{
+  "name": "leitor-omr-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Leitor OMR de cart\u00f5es-resposta com Node.js, PDF/imagem e 35 quest\u00f5es A-E.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.78",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "pdfjs-dist": "^5.4.149",
+    "sharp": "^0.34.3"
+  }
+}
