@@ -30,27 +30,40 @@
 
         <div class="field">
           <label>Gabarito oficial</label>
+
           <div class="gabarito-container">
+
             <div class="gabarito-header">
               <div>
                 <h3>Gabarito oficial</h3>
-                <p>Selecione a alternativa correta de cada questão.</p>
+                <p>
+                  Preencha uma folha com as respostas corretas,
+                  escaneie e envie o arquivo.
+                </p>
               </div>
-              <br>
             </div>
 
             <div class="gabarito-import-row">
+
               <input id="arquivoGabarito" type="file" accept=".pdf,image/png,image/jpeg">
 
               <button id="btnLerGabarito" type="button">
                 Ler gabarito escaneado
               </button>
+
             </div>
 
-            <small>
-              Preencha uma folha de cartão-resposta com as respostas corretas,
-              escaneie e envie aqui. O sistema fará a leitura automaticamente.
-            </small>
+            <div id="gabaritoStatus" class="gabarito-status">
+              Nenhum gabarito carregado.
+            </div>
+
+            <div id="gabaritoMensagem" class="gabarito-mensagem">
+              O professor deve preencher uma única folha
+              com as 35 respostas corretas.
+            </div>
+
+            <div id="gabaritoRespostas" class="gabarito-respostas hidden"></div>
+
           </div>
         </div>
 
@@ -146,110 +159,181 @@
       `;
     }
 
-    function statusClass(result) {
-      if (result.status === "blank") return "q-blank";
-      if (result.status === "double") return "q-double";
-      if (result.correct === false) return "q-wrong";
-      return "q-marked";
-    }
-
 
     // =========================================================
-    // GABARITO OFICIAL
+    // GABARITO OFICIAL ESCANEADO
     // =========================================================
 
-    const gabaritoGrid = document.getElementById("gabaritoGrid");
-    const gabaritoStatus = document.getElementById("gabaritoStatus");
-    const gabaritoMensagem = document.getElementById("gabaritoMensagem");
+    const arquivoGabarito =
+      document.getElementById("arquivoGabarito");
+
+    const btnLerGabarito =
+      document.getElementById("btnLerGabarito");
 
     const gabaritoAtual = Array(35).fill(null);
 
-    const alternativas = ["A", "B", "C", "D", "E"];
 
-
-    function criarGabarito() {
-      gabaritoGrid.innerHTML = "";
-
-      for (let i = 0; i < 35; i++) {
-        const numero = i + 1;
-
-        const question = document.createElement("div");
-        question.className = "gabarito-question";
-
-        const number = document.createElement("span");
-        number.className = "gabarito-number";
-        number.textContent = String(numero).padStart(2, "0");
-
-        question.appendChild(number);
-
-        alternativas.forEach(alternativa => {
-          const button = document.createElement("button");
-
-          button.type = "button";
-          button.className = "gabarito-option";
-          button.textContent = alternativa;
-
-          button.addEventListener("click", () => {
-            selecionarGabarito(numero - 1, alternativa);
-          });
-
-          question.appendChild(button);
-        });
-
-        gabaritoGrid.appendChild(question);
-      }
-    }
-
-
-    function selecionarGabarito(index, alternativa) {
-      gabaritoAtual[index] = alternativa;
-
-      const question = gabaritoGrid.children[index];
-
-      const buttons = question.querySelectorAll(".gabarito-option");
-
-      buttons.forEach(button => {
-        button.classList.toggle(
-          "selected",
-          button.textContent === alternativa
-        );
-      });
-
-      atualizarStatusGabarito();
-    }
-
-
-    function atualizarStatusGabarito() {
-      const preenchidas = gabaritoAtual.filter(Boolean).length;
-
-      gabaritoStatus.textContent = `${preenchidas} / 35`;
-
-      if (preenchidas === 35) {
-        gabaritoStatus.classList.add("complete");
-
-        gabaritoMensagem.textContent =
-          "✓ Gabarito completo. Pronto para realizar a correção.";
-
-        gabaritoMensagem.classList.add("complete");
-
-      } else {
-        gabaritoStatus.classList.remove("complete");
-
-        gabaritoMensagem.textContent =
-          "Preencha todas as questões para continuar.";
-
-        gabaritoMensagem.classList.remove("complete");
-      }
-    }
-
+    // ---------------------------------------------------------
+    // Obtém o gabarito em formato para enviar ao servidor
+    // ---------------------------------------------------------
 
     function obterGabarito() {
+
+      if (
+        gabaritoAtual.length !== 35 ||
+        gabaritoAtual.some(resposta => !resposta)
+      ) {
+        return null;
+      }
+
       return gabaritoAtual.join(",");
     }
 
 
-    // Cria o gabarito assim que a página é carregada
-    criarGabarito();
+    // ---------------------------------------------------------
+    // Mostra o gabarito lido no status
+    // ---------------------------------------------------------
+
+    function mostrarGabaritoLido() {
+
+      const respostas =
+        gabaritoAtual.join(" ");
+
+      setStatus(
+        `Gabarito oficial carregado: ${respostas}`,
+        "success"
+      );
+    }
+
+
+    // ---------------------------------------------------------
+    // Aplica o resultado recebido do OMR
+    // ---------------------------------------------------------
+
+    function aplicarGabaritoLido(answerKey) {
+
+      if (
+        !Array.isArray(answerKey) ||
+        answerKey.length !== 35
+      ) {
+        throw new Error(
+          "O gabarito recebido não possui exatamente 35 respostas."
+        );
+      }
+
+      for (let i = 0; i < 35; i++) {
+
+        const alternativa =
+          String(answerKey[i]).toUpperCase();
+
+        if (!["A", "B", "C", "D", "E"].includes(alternativa)) {
+
+          throw new Error(
+            `Resposta inválida na questão ${i + 1}: ${alternativa}`
+          );
+        }
+
+        gabaritoAtual[i] = alternativa;
+      }
+
+      mostrarGabaritoLido();
+    }
+
+
+    // ---------------------------------------------------------
+    // LER GABARITO ESCANEADO
+    // ---------------------------------------------------------
+
+    btnLerGabarito.addEventListener(
+      "click",
+      async () => {
+
+        const arquivo =
+          arquivoGabarito.files[0];
+
+        if (!arquivo) {
+
+          setStatus(
+            "Selecione o arquivo do gabarito oficial.",
+            "error"
+          );
+
+          return;
+        }
+
+        btnLerGabarito.disabled = true;
+
+        btnLerGabarito.textContent =
+          "Lendo gabarito...";
+
+        setStatus(
+          "Lendo o cartão preenchido pelo professor...",
+          "loading"
+        );
+
+        try {
+
+          const body =
+            new FormData();
+
+          body.append(
+            "gabarito",
+            arquivo
+          );
+
+          const response =
+            await fetch(
+              "/api/ler-gabarito",
+              {
+                method: "POST",
+                body
+              }
+            );
+
+          const data =
+            await response.json();
+
+          if (!response.ok) {
+
+            throw new Error(
+              data.error ||
+              "Erro ao ler o gabarito oficial."
+            );
+          }
+
+          aplicarGabaritoLido(
+            data.answerKey
+          );
+
+          setStatus(
+            "✓ Gabarito oficial lido com sucesso.",
+            "success"
+          );
+
+          console.log(
+            "Gabarito oficial:",
+            data.answerKey
+          );
+
+        } catch (error) {
+
+          console.error(error);
+
+          setStatus(
+            error.message,
+            "error"
+          );
+
+        } finally {
+
+          btnLerGabarito.disabled =
+            false;
+
+          btnLerGabarito.textContent =
+            "Ler gabarito escaneado";
+        }
+      }
+    );
 
 
     // =========================================================
@@ -353,19 +437,25 @@
     form.addEventListener("submit", async (event) => {
       event.preventDefault();
 
-      const arquivo = document.getElementById("arquivo").files[0];
-      const gabarito = obterGabarito();
+      const arquivo =
+        document.getElementById("arquivo").files[0];
 
-      if (gabaritoAtual.some(resposta => !resposta)) {
+      const gabarito =
+        obterGabarito();
+
+      if (!gabarito) {
         setStatus(
-          "Preencha todas as 35 questões do gabarito oficial.",
+          "Leia o gabarito oficial escaneado antes de corrigir os cartões.",
           "error"
         );
         return;
       }
 
       if (!arquivo) {
-        setStatus("Selecione um arquivo.", "error");
+        setStatus(
+          "Selecione um arquivo.",
+          "error"
+        );
         return;
       }
 
