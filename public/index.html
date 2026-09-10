@@ -10,9 +10,12 @@
 
 <body>
   <main class="container">
+
     <section class="hero">
       <p class="eyebrow">PROTÓTIPO OMR</p>
+
       <h1>Leitor de cartão-resposta</h1>
+
       <p>
         Envie um PDF escaneado, PNG ou JPG. O sistema localiza os quatro
         marcadores do cartão, lê as 35 questões e identifica respostas
@@ -21,26 +24,36 @@
     </section>
 
     <section class="card">
+
       <form id="formLeitura">
+
         <div class="field">
           <label for="arquivo">Arquivo escaneado</label>
+
           <input id="arquivo" name="arquivo" type="file" accept=".pdf,image/png,image/jpeg" required>
-          <small>PDF, PNG ou JPG. O PDF pode possuir várias páginas.</small>
+
+          <small>
+            PDF, PNG ou JPG. O PDF pode possuir várias páginas.
+          </small>
         </div>
 
         <div class="field">
+
           <label>Gabarito oficial</label>
 
           <div class="gabarito-container">
 
             <div class="gabarito-header">
+
               <div>
                 <h3>Gabarito oficial</h3>
+
                 <p>
                   Preencha uma folha com as respostas corretas,
                   escaneie e envie o arquivo.
                 </p>
               </div>
+
             </div>
 
             <div class="gabarito-import-row">
@@ -65,104 +78,93 @@
             <div id="gabaritoRespostas" class="gabarito-respostas hidden"></div>
 
           </div>
+
         </div>
 
         <button id="btnProcessar" type="submit">
           Ler cartões
         </button>
+
       </form>
+
     </section>
 
     <section id="status" class="status hidden"></section>
+
     <section id="resumo" class="hidden"></section>
+
     <section id="resultados" class="results"></section>
+
   </main>
 
   <template id="pageTemplate">
+
     <article class="page-card">
+
       <header class="page-header">
+
         <div>
           <span class="page-label">PÁGINA</span>
           <h2 class="page-title"></h2>
         </div>
+
         <div class="badges"></div>
+
       </header>
 
       <div class="grade-box hidden">
+
         <div>
           <span>Acertos</span>
           <strong class="grade-correct"></strong>
         </div>
+
+        <div>
+          <span>Erros</span>
+          <strong class="grade-wrong"></strong>
+        </div>
+
+        <div>
+          <span>Em branco</span>
+          <strong class="grade-blank"></strong>
+        </div>
+
+        <div>
+          <span>Duplas</span>
+          <strong class="grade-invalid"></strong>
+        </div>
+
         <div>
           <span>Nota</span>
           <strong class="grade-score"></strong>
         </div>
+
       </div>
 
       <div class="questions"></div>
 
     </article>
+
   </template>
 
   <script>
-    const form = document.getElementById("formLeitura");
-    const statusBox = document.getElementById("status");
-    const resumo = document.getElementById("resumo");
-    const resultados = document.getElementById("resultados");
-    const btn = document.getElementById("btnProcessar");
-    const template = document.getElementById("pageTemplate");
+    const form =
+      document.getElementById("formLeitura");
 
+    const statusBox =
+      document.getElementById("status");
 
-    function setStatus(text, type = "") {
-      statusBox.className = `status ${type}`;
-      statusBox.textContent = text;
-    }
+    const resumo =
+      document.getElementById("resumo");
 
-    function statusText(result) {
-      if (result.status === "blank") return "EM BRANCO";
-      if (result.status === "double") return `DUPLA: ${result.marked.join(" + ")}`;
-      return result.answer;
-    }
+    const resultados =
+      document.getElementById("resultados");
 
-    function statusClass(result) {
-      if (result.status === "blank") return "q-blank";
-      if (result.status === "double") return "q-double";
-      if (result.correct === false) return "q-wrong";
-      return "q-marked";
-    }
+    const btn =
+      document.getElementById("btnProcessar");
 
-    function renderSummary(data) {
-      const totalMarked = data.pages.reduce((s, p) => s + p.summary.marked, 0);
-      const totalBlank = data.pages.reduce((s, p) => s + p.summary.blank, 0);
-      const totalDouble = data.pages.reduce((s, p) => s + p.summary.double, 0);
-
-      resumo.classList.remove("hidden");
-      resumo.innerHTML = `
-        <div class="summary-grid">
-          <div class="summary-item">
-            <span>Páginas</span>
-            <strong>${data.pageCount}</strong>
-          </div>
-          <div class="summary-item">
-            <span>Marcadas</span>
-            <strong>${totalMarked}</strong>
-          </div>
-          <div class="summary-item">
-            <span>Em branco</span>
-            <strong>${totalBlank}</strong>
-          </div>
-          <div class="summary-item">
-            <span>Duplas</span>
-            <strong>${totalDouble}</strong>
-          </div>
-        </div>
-      `;
-    }
-
-
-    // =========================================================
-    // GABARITO OFICIAL ESCANEADO
-    // =========================================================
+    const template =
+      document.getElementById("pageTemplate");
 
     const arquivoGabarito =
       document.getElementById("arquivoGabarito");
@@ -170,18 +172,115 @@
     const btnLerGabarito =
       document.getElementById("btnLerGabarito");
 
-    const gabaritoAtual = Array(35).fill(null);
+    const gabaritoStatus =
+      document.getElementById("gabaritoStatus");
+
+    const gabaritoMensagem =
+      document.getElementById("gabaritoMensagem");
+
+    const gabaritoRespostas =
+      document.getElementById("gabaritoRespostas");
+
+    const gabaritoAtual =
+      Array(35).fill(null);
 
 
-    // ---------------------------------------------------------
-    // Obtém o gabarito em formato para enviar ao servidor
-    // ---------------------------------------------------------
+    function setStatus(text, type = "") {
+      statusBox.className =
+        `status ${type}`;
+
+      statusBox.textContent =
+        text;
+    }
+
+
+    function statusText(result) {
+      if (result.status === "blank") {
+        return "EM BRANCO";
+      }
+
+      if (result.status === "double") {
+        return `DUPLA: ${result.marked.join(" + ")}`;
+      }
+
+      return result.answer;
+    }
+
+
+    function statusClass(result) {
+      if (result.status === "blank") {
+        return "q-blank";
+      }
+
+      if (result.status === "double") {
+        return "q-double";
+      }
+
+      if (result.correct === false) {
+        return "q-wrong";
+      }
+
+      return "q-marked";
+    }
+
+
+    function renderSummary(data) {
+
+      const totalMarked =
+        data.pages.reduce(
+          (s, p) => s + p.summary.marked,
+          0
+        );
+
+      const totalBlank =
+        data.pages.reduce(
+          (s, p) => s + p.summary.blank,
+          0
+        );
+
+      const totalDouble =
+        data.pages.reduce(
+          (s, p) => s + p.summary.double,
+          0
+        );
+
+      resumo.classList.remove("hidden");
+
+      resumo.innerHTML = `
+        <div class="summary-grid">
+
+          <div class="summary-item">
+            <span>Páginas</span>
+            <strong>${data.pageCount}</strong>
+          </div>
+
+          <div class="summary-item">
+            <span>Marcadas</span>
+            <strong>${totalMarked}</strong>
+          </div>
+
+          <div class="summary-item">
+            <span>Em branco</span>
+            <strong>${totalBlank}</strong>
+          </div>
+
+          <div class="summary-item">
+            <span>Duplas</span>
+            <strong>${totalDouble}</strong>
+          </div>
+
+        </div>
+      `;
+    }
+
 
     function obterGabarito() {
 
       if (
         gabaritoAtual.length !== 35 ||
-        gabaritoAtual.some(resposta => !resposta)
+        gabaritoAtual.some(
+          resposta => !resposta
+        )
       ) {
         return null;
       }
@@ -190,25 +289,27 @@
     }
 
 
-    // ---------------------------------------------------------
-    // Mostra o gabarito lido no status
-    // ---------------------------------------------------------
-
     function mostrarGabaritoLido() {
 
       const respostas =
         gabaritoAtual.join(" ");
 
-      setStatus(
-        `Gabarito oficial carregado: ${respostas}`,
-        "success"
-      );
+      gabaritoStatus.textContent =
+        "✓ Gabarito oficial carregado.";
+
+      gabaritoStatus.className =
+        "gabarito-status success";
+
+      gabaritoMensagem.textContent =
+        "As 35 respostas foram lidas automaticamente.";
+
+      gabaritoRespostas.classList.remove("hidden");
+
+      gabaritoRespostas.textContent =
+        respostas;
+
     }
 
-
-    // ---------------------------------------------------------
-    // Aplica o resultado recebido do OMR
-    // ---------------------------------------------------------
 
     function aplicarGabaritoLido(answerKey) {
 
@@ -226,23 +327,22 @@
         const alternativa =
           String(answerKey[i]).toUpperCase();
 
-        if (!["A", "B", "C", "D", "E"].includes(alternativa)) {
-
+        if (
+          !["A", "B", "C", "D", "E"]
+            .includes(alternativa)
+        ) {
           throw new Error(
             `Resposta inválida na questão ${i + 1}: ${alternativa}`
           );
         }
 
-        gabaritoAtual[i] = alternativa;
+        gabaritoAtual[i] =
+          alternativa;
       }
 
       mostrarGabaritoLido();
     }
 
-
-    // ---------------------------------------------------------
-    // LER GABARITO ESCANEADO
-    // ---------------------------------------------------------
 
     btnLerGabarito.addEventListener(
       "click",
@@ -253,23 +353,26 @@
 
         if (!arquivo) {
 
-          setStatus(
-            "Selecione o arquivo do gabarito oficial.",
-            "error"
-          );
+          gabaritoStatus.textContent =
+            "Selecione o arquivo do gabarito oficial.";
+
+          gabaritoStatus.className =
+            "gabarito-status error";
 
           return;
         }
 
-        btnLerGabarito.disabled = true;
+        btnLerGabarito.disabled =
+          true;
 
         btnLerGabarito.textContent =
           "Lendo gabarito...";
 
-        setStatus(
-          "Lendo o cartão preenchido pelo professor...",
-          "loading"
-        );
+        gabaritoStatus.textContent =
+          "Lendo o cartão preenchido pelo professor...";
+
+        gabaritoStatus.className =
+          "gabarito-status loading";
 
         try {
 
@@ -319,6 +422,12 @@
 
           console.error(error);
 
+          gabaritoStatus.textContent =
+            error.message;
+
+          gabaritoStatus.className =
+            "gabarito-status error";
+
           setStatus(
             error.message,
             "error"
@@ -336,27 +445,50 @@
     );
 
 
-    // =========================================================
-    // RESULTADOS
-    // =========================================================
-
-
     function renderPage(page) {
-      const fragment = template.content.cloneNode(true);
-      const article = fragment.querySelector(".page-card");
 
-      fragment.querySelector(".page-title").textContent = `Cartão ${page.page}`;
+      const fragment =
+        template.content.cloneNode(true);
 
-      const badges = fragment.querySelector(".badges");
+      const article =
+        fragment.querySelector(".page-card");
+
+      fragment.querySelector(
+        ".page-title"
+      ).textContent =
+        `Cartão ${page.page}`;
+
+      const badges =
+        fragment.querySelector(".badges");
+
       badges.innerHTML = `
-        <span class="badge badge-ok">${page.summary.marked} marcadas</span>
-        <span class="badge badge-blank">${page.summary.blank} em branco</span>
-        <span class="badge badge-warn">${page.summary.double} duplas</span>
+        <span class="badge badge-ok">
+          ${page.summary.marked} marcadas
+        </span>
+
+        <span class="badge badge-blank">
+          ${page.summary.blank} em branco
+        </span>
+
+        <span class="badge badge-warn">
+          ${page.summary.double} duplas
+        </span>
       `;
 
+
       if (page.grading) {
-        const gradeBox = fragment.querySelector(".grade-box");
+
+        const gradeBox =
+          fragment.querySelector(
+            ".grade-box"
+          );
+
+        gradeBox.classList.remove(
+          "hidden"
+        );
+
         gradeBox.innerHTML = `
+
           <div>
             <span>Acertos</span>
             <strong class="grade-correct">
@@ -388,209 +520,239 @@
           <div>
             <span>Nota</span>
             <strong class="grade-score">
-              ${page.grading.score.toLocaleString("pt-BR", {
-          minimumFractionDigits: 2,
-          maximumFractionDigits: 2
-        })}
+              ${page.grading.score.toLocaleString(
+          "pt-BR",
+          {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+          }
+        )}
             </strong>
           </div>
+
         `;
       }
 
-      const questions = fragment.querySelector(".questions");
 
-      page.results.forEach((r, index) => {
-        const item = document.createElement("div");
+      const questions =
+        fragment.querySelector(
+          ".questions"
+        );
 
-        const grading = page.grading?.detail?.[index];
 
-        item.className = `question ${statusClass(r)} ${grading?.correct === false && r.status === "marked" ? "q-wrong" : ""
-          }`;
+      page.results.forEach(
+        (r, index) => {
 
-        const confidence = Math.round((r.confidence || 0) * 100);
+          const item =
+            document.createElement(
+              "div"
+            );
 
-        let respostaTexto = statusText(r);
-        let respostaEsperada = "";
+          const grading =
+            page.grading?.detail?.[index];
 
-        if (grading) {
-          respostaEsperada = `Gabarito: ${grading.expected}`;
-        }
 
-        item.innerHTML = `
-          <span class="number">${String(r.question).padStart(2, "0")}</span>
+          const wrong =
+            grading?.correct === false &&
+            r.status === "marked";
 
-          <div class="answer-info">
-            <strong>${respostaTexto}</strong>
-            ${respostaEsperada
-            ? `<small>${respostaEsperada}</small>`
-            : ""
+
+          item.className =
+            `question ${statusClass(r)} ${wrong ? "q-wrong" : ""
+            }`;
+
+
+          const respostaTexto =
+            statusText(r);
+
+          let respostaEsperada =
+            "";
+
+
+          if (grading) {
+            respostaEsperada =
+              `Gabarito: ${grading.expected}`;
           }
-          </div>
-        `;
 
-        questions.appendChild(item);
-      });
 
-      resultados.appendChild(fragment);
-    }
+          item.innerHTML = `
 
-    form.addEventListener("submit", async (event) => {
-      event.preventDefault();
+            <span class="number">
+              ${String(r.question).padStart(2, "0")}
+            </span>
 
-      const arquivo =
-        document.getElementById("arquivo").files[0];
+            <div class="answer-info">
 
-      const gabarito =
-        obterGabarito();
+              <strong>
+                ${respostaTexto}
+              </strong>
 
-      if (!gabarito) {
-        setStatus(
-          "Leia o gabarito oficial escaneado antes de corrigir os cartões.",
-          "error"
-        );
-        return;
-      }
+              ${respostaEsperada
+              ? `<small>${respostaEsperada}</small>`
+              : ""
+            }
 
-      if (!arquivo) {
-        setStatus(
-          "Selecione um arquivo.",
-          "error"
-        );
-        return;
-      }
+            </div>
 
-      resultados.innerHTML = "";
-      resumo.innerHTML = "";
-      resumo.classList.add("hidden");
+          `;
 
-      btn.disabled = true;
-      btn.textContent = "Processando...";
-      setStatus(
-        "Lendo o arquivo. Em PDFs com várias páginas isso pode levar alguns segundos.",
-        "loading"
-      );
 
-      try {
-        const body = new FormData();
-        body.append("arquivo", arquivo);
-        body.append("gabarito", gabarito);
-
-        const response = await fetch("/api/ler", {
-          method: "POST",
-          body
-        });
-
-        const data = await response.json();
-
-        if (!response.ok) {
-          throw new Error(data.error || "Erro ao processar.");
-        }
-
-        setStatus(
-          `Leitura concluída: ${data.pageCount} página(s) processada(s).`,
-          "success"
-        );
-
-        renderSummary(data);
-        data.pages.forEach(renderPage);
-      } catch (error) {
-        console.error(error);
-        setStatus(error.message, "error");
-      } finally {
-        btn.disabled = false;
-        btn.textContent = "Ler cartões";
-      }
-
-    });
-
-    function aplicarGabaritoLido(answerKey) {
-      if (!Array.isArray(answerKey) || answerKey.length !== 35) {
-        throw new Error("O gabarito recebido não possui 35 respostas.");
-      }
-
-      answerKey.forEach((alternativa, index) => {
-        gabaritoAtual[index] = alternativa;
-
-        const question = gabaritoGrid.children[index];
-
-        if (!question) return;
-
-        const buttons =
-          question.querySelectorAll(".gabarito-option");
-
-        buttons.forEach(button => {
-          button.classList.toggle(
-            "selected",
-            button.textContent === alternativa
-          );
-        });
-      });
-
-      atualizarStatusGabarito();
-    }
-
-    btnLerGabarito.addEventListener("click", async () => {
-      const arquivo = arquivoGabarito.files[0];
-
-      if (!arquivo) {
-        setStatus(
-          "Selecione o arquivo do gabarito oficial.",
-          "error"
-        );
-        return;
-      }
-
-      btnLerGabarito.disabled = true;
-      btnLerGabarito.textContent = "Lendo gabarito...";
-
-      setStatus(
-        "Lendo o cartão preenchido pelo professor...",
-        "loading"
-      );
-
-      try {
-        const body = new FormData();
-
-        body.append("gabarito", arquivo);
-
-        const response = await fetch(
-          "/api/ler-gabarito",
-          {
-            method: "POST",
-            body
-          }
-        );
-
-        const data = await response.json();
-
-        if (!response.ok) {
-          throw new Error(
-            data.error || "Erro ao ler o gabarito."
+          questions.appendChild(
+            item
           );
         }
+      );
 
-        aplicarGabaritoLido(data.answerKey);
 
-        setStatus(
-          "Gabarito oficial lido com sucesso.",
-          "success"
+      resultados.appendChild(
+        fragment
+      );
+    }
+
+
+    form.addEventListener(
+      "submit",
+      async (event) => {
+
+        event.preventDefault();
+
+
+        const arquivo =
+          document.getElementById(
+            "arquivo"
+          ).files[0];
+
+
+        const gabarito =
+          obterGabarito();
+
+
+        if (!gabarito) {
+
+          setStatus(
+            "Leia o gabarito oficial escaneado antes de corrigir os cartões.",
+            "error"
+          );
+
+          return;
+        }
+
+
+        if (!arquivo) {
+
+          setStatus(
+            "Selecione um arquivo.",
+            "error"
+          );
+
+          return;
+        }
+
+
+        resultados.innerHTML =
+          "";
+
+        resumo.innerHTML =
+          "";
+
+        resumo.classList.add(
+          "hidden"
         );
 
-      } catch (error) {
-        console.error(error);
+
+        btn.disabled =
+          true;
+
+        btn.textContent =
+          "Processando...";
+
 
         setStatus(
-          error.message,
-          "error"
+          "Lendo o arquivo. Em PDFs com várias páginas isso pode levar alguns segundos.",
+          "loading"
         );
 
-      } finally {
-        btnLerGabarito.disabled = false;
-        btnLerGabarito.textContent =
-          "Ler gabarito escaneado";
+
+        try {
+
+          const body =
+            new FormData();
+
+
+          body.append(
+            "arquivo",
+            arquivo
+          );
+
+
+          body.append(
+            "gabarito",
+            gabarito
+          );
+
+
+          const response =
+            await fetch(
+              "/api/ler",
+              {
+                method: "POST",
+                body
+              }
+            );
+
+
+          const data =
+            await response.json();
+
+
+          if (!response.ok) {
+
+            throw new Error(
+              data.error ||
+              "Erro ao processar."
+            );
+          }
+
+
+          setStatus(
+            `Leitura concluída: ${data.pageCount} página(s) processada(s).`,
+            "success"
+          );
+
+
+          renderSummary(
+            data
+          );
+
+
+          data.pages.forEach(
+            renderPage
+          );
+
+
+        } catch (error) {
+
+          console.error(error);
+
+          setStatus(
+            error.message,
+            "error"
+          );
+
+        } finally {
+
+          btn.disabled =
+            false;
+
+          btn.textContent =
+            "Ler cartões";
+        }
+
       }
-    });
+    );
+
   </script>
+
 </body>
 
 </html>
