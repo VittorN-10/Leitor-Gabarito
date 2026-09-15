@@ -1,0 +1,4688 @@
+[
+  {
+    "rm": "260335",
+    "nome": "ALISSON DE SOUZA GONCALVES",
+    "email": "alisson.goncalves@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260480",
+    "nome": "ANA CAROLINA MOREIRA CAMPIONI",
+    "email": "ana.campioni@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260292",
+    "nome": "ANTHONY GOMES DE OLIVEIRA",
+    "email": "anthony.oliveira6@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260429",
+    "nome": "BRUNO MENDES DE MELO",
+    "email": "bruno.melo8@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260419",
+    "nome": "CARLOS EDUARDO PEREIRA DA SILVA",
+    "email": "carlos.silva108@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260042",
+    "nome": "EMANUELLE LUIZA SANTOS MATEUS",
+    "email": "emanuelle.mateus@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260104",
+    "nome": "EMILLY SANTOS BORGES DE LIMA",
+    "email": "emilly.lima4@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260273",
+    "nome": "FERNANDO HENRIQUE BEDENDO CARDOSO DA CONCEIÇÃO",
+    "email": "fernando.conceicao2@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260438",
+    "nome": "GABRIEL LUCAS SANTOS RIBEIRO",
+    "email": "gabriel.ribeiro18@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260089",
+    "nome": "GIOVANA LIGERO MENDES",
+    "email": "giovana.mendes01@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260417",
+    "nome": "GUILHERME ALVES DO NASCIMENTO",
+    "email": "guilherme.nascimento15@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260176",
+    "nome": "GUILHERME SILVA FONTENELE GOMES",
+    "email": "guilherme.gomes13@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260034",
+    "nome": "GUSTAVO DOS SANTOS PIRES DA SILVA",
+    "email": "gustavo.silva207@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260158",
+    "nome": "GUSTAVO GOMES VICARIA",
+    "email": "gustavo.vicaria@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260172",
+    "nome": "HELOISA DA SILVA CUNHA",
+    "email": "heloisa.cunha01@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260182",
+    "nome": "HENRIQUE FARIA GIROTI",
+    "email": "henrique.giroti@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260205",
+    "nome": "ISAAC ANDRÉ SOUZA SILVA",
+    "email": "isaac.silva8@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260251",
+    "nome": "ISAAC NASCIMENTO PEREIRA",
+    "email": "isaac.pereira4@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260246",
+    "nome": "IZABELI OLIVEIRA GUEDES",
+    "email": "izabeli.guedes@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260333",
+    "nome": "JULYA KEMILLY DIAS SANTANA",
+    "email": "julya.santana@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260337",
+    "nome": "KAMILLY ACIOLI FERREIRA",
+    "email": "kamilly.ferreira01@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260494",
+    "nome": "KESYA DE SOUSA COSTA",
+    "email": "kesya.costa@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260239",
+    "nome": "LETHÍCIA VYTORIA ALENCAR SILVA",
+    "email": "lethicia.silva01@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260020",
+    "nome": "LEVI MIRANDA SILVA SOUZA",
+    "email": "levi.souza2@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260407",
+    "nome": "LUIS HENRIQUE FERREIRA DOS SANTOS",
+    "email": "luis.santos43@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260028",
+    "nome": "LUIZ RICARDO SANTOS DE OLIVEIRA",
+    "email": "luiz.oliveira34@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260052",
+    "nome": "MANUELA MOREIRA MONTESANO",
+    "email": "manuela.montesano@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260132",
+    "nome": "MARIANA SANTOS PASSOS",
+    "email": "mariana.passos@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260244",
+    "nome": "MIRYÃ JESUS DE PAULA",
+    "email": "mirya.paula@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260314",
+    "nome": "NICOLLAS MARQUES ALENCAR",
+    "email": "nicollas.alencar@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260216",
+    "nome": "OTÁVIO MIGUEL DA SILVA OLIVEIRA",
+    "email": "otavio.oliveira17@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260139",
+    "nome": "PEDRO LUIS SILVA SANTOS",
+    "email": "pedro.santos140@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260094",
+    "nome": "SAMUEL BEZERRA SILVEIRA",
+    "email": "samuel.silveira3@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260412",
+    "nome": "SAMUEL FILIPE SANTOS DE AGUIAR",
+    "email": "samuel.aguiar01@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260331",
+    "nome": "TACIANE ARAÚJO ALBUQUERQUE",
+    "email": "taciane.albuquerque@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260319",
+    "nome": "THAMIRES LIMA DA SILVA",
+    "email": "thamires.silva12@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260398",
+    "nome": "THIAGO CORREA BOSA FILHO",
+    "email": "thiago.bosa@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260054",
+    "nome": "VICTOR HENRIQUE DE OLIVEIRA REIMBERG",
+    "email": "victor.reimberg@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260455",
+    "nome": "WENDEL FELIX DE MORAIS",
+    "email": "wendel.morais@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260485",
+    "nome": "YASMIN OLIVEIRA NOGUEIRA",
+    "email": "yasmin.nogueira@aluno.cps.sp.gov.br",
+    "turma": "1ºADM - MANHÃ"
+  },
+  {
+    "rm": "260134",
+    "nome": "ANA CLARA MACEDO MENDES",
+    "email": "ana.mendes7@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260250",
+    "nome": "ANNA FLAVIA TAVARES TEIXEIRA",
+    "email": "anna.teixeira@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260044",
+    "nome": "BEATRIZ DA SILVA TAVEIRA",
+    "email": "beatriz.taveira@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260389",
+    "nome": "BERNARDO SANCHES SILVA",
+    "email": "bernardo.silva7@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260228",
+    "nome": "BRUNO PEREIRA SOUSA MACHADO",
+    "email": "bruno.machado5@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260185",
+    "nome": "CLARA SANTANA PITEL",
+    "email": "clara.pitel@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260223",
+    "nome": "EDUARDO MARTINS SILVA",
+    "email": "eduardo.silva108@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260067",
+    "nome": "EDUARDO RODRIGUES DE OLIVEIRA",
+    "email": "eduardo.oliveira44@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260008",
+    "nome": "ESTHER DOS SANTOS PIETRI",
+    "email": "esther.pietri@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260453",
+    "nome": "FELIPE OLIVEIRA DOS SANTOS",
+    "email": "felipe.santos100@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260143",
+    "nome": "GABRIELY VITÓRIA NASCIMENTO TEIXEIRA",
+    "email": "gabriely.teixeira@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260001",
+    "nome": "GEOVANNA FERREIRA DE LIMA",
+    "email": "geovanna.lima4@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260501",
+    "nome": "GUILHERME GONÇALVES MELO",
+    "email": "guilherme.melo5@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260152",
+    "nome": "ISAAC EMANUEL DA SILVA",
+    "email": "isaac.silva14@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260200",
+    "nome": "ISABELLA ANTUNES DOS SANTOS",
+    "email": "isabella.santos37@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260140",
+    "nome": "ISRAEL TEODORO SANTOS",
+    "email": "israel.santos4@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260203",
+    "nome": "JÚLIO GABRIEL DE OLIVEIRA SILVA FERREIRA",
+    "email": "julio.ferreira5@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260487",
+    "nome": "KAIQUE SANTOS DA MACENA",
+    "email": "kaique.macena@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260329",
+    "nome": "KAUAN OLIVEIRA MARQUES",
+    "email": "kauan.marques01@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260069",
+    "nome": "KAUANI ELIANA APARECIDA DA SILVA DE OLIVEIRA",
+    "email": "kauani.oliveira@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260027",
+    "nome": "KESYA NUNES FERREIRA",
+    "email": "kesya.ferreira@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260324",
+    "nome": "LUARA CAROLINE SANTANA ALVES",
+    "email": "luara.alves@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260204",
+    "nome": "MARCELLY SOUZA VALU",
+    "email": "marcelly.valu@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260278",
+    "nome": "MARCELO EDUARDO FERREIRA DE MOURA",
+    "email": "marcelo.moura01@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260437",
+    "nome": "MARIA EDUARDA DE BARROS TEODORO",
+    "email": "maria.teodoro@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260114",
+    "nome": "MATHEUS XAVIER SANTOS SILVA",
+    "email": "matheus.silva265@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260477",
+    "nome": "MAX WILLIAN GONCALVES VIEIRA",
+    "email": "max.vieira@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260035",
+    "nome": "MAYSA LETICIA DAS GRAÇAS ESTEVÃO",
+    "email": "maysa.estevao@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260221",
+    "nome": "MIRELLA DA SILVA SANTANA",
+    "email": "mirella.santana01@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260011",
+    "nome": "NATHALY BRITO MARINHO",
+    "email": "nathaly.marinho@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260164",
+    "nome": "NICOLLY ELOHA VALENZE COIMBRA LINO",
+    "email": "nicolly.lino@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260468",
+    "nome": "PÉROLA FRANCA SOUZA CRUZ",
+    "email": "perola.cruz@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260154",
+    "nome": "RAFAELA NOGUEIRA DE JESUS SILVA",
+    "email": "rafaela.silva42@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260433",
+    "nome": "RYAN PRATES SOUZA",
+    "email": "ryan.souza8@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260086",
+    "nome": "SANDY DIAS DA COSTA LIMA",
+    "email": "sandy.lima@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260282",
+    "nome": "VICTOR HUGO MENDES DA COSTA",
+    "email": "victor.costa10@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260074",
+    "nome": "VICTOR HUGO RODRIGUES SILVA",
+    "email": "victor.silva121@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260274",
+    "nome": "VICTÓRIA PEREIRA RODRIGUES",
+    "email": "victoria.rodrigues7@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260311",
+    "nome": "YASMIM DAVID SOUZA DOS REIS",
+    "email": "yasmim.reis@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260058",
+    "nome": "YASMIN APARECIDA FACCIOLLI DE LIMA",
+    "email": "yasmin.lima13@aluno.cps.sp.gov.br",
+    "turma": "1º ADM - TARDE"
+  },
+  {
+    "rm": "260312",
+    "nome": "ALEX BRAIAN CONDORI LIMACHI",
+    "email": "alex.limachi@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260420",
+    "nome": "ANDERSON LIMA DE ANDRADE",
+    "email": "anderson.andrade01@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260415",
+    "nome": "BLEDA HENRIQUE DA HORA LOPES",
+    "email": "bleda.lopes@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260396",
+    "nome": "BRUNO BORGES CAVALCANTE",
+    "email": "bruno.cavalcante2@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260111",
+    "nome": "CAIO HENRIQUE MORAES FERREIRA",
+    "email": "caio.ferreira10@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260321",
+    "nome": "DAVID LEITE ALVES",
+    "email": "david.alves5@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260327",
+    "nome": "DENIS LUANGO RODRIGUES",
+    "email": "denis.rodrigues01@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260007",
+    "nome": "ELOÁ GRANDE DO AMARAL",
+    "email": "eloa.amaral@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260045",
+    "nome": "ENZO MIGUEL MOREIRA BATISTA",
+    "email": "enzo.batista2@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260065",
+    "nome": "FELIPE DE MELO BORDIM",
+    "email": "felipe.bordim@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260188",
+    "nome": "GABRIEL DE ALMEIDA RIBEIRO SOUZA",
+    "email": "gabriel.souza112@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260009",
+    "nome": "GUILHERME DE OLIVEIRA SILVA",
+    "email": "guilherme.silva253@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260013",
+    "nome": "GUSTAVO EDUARDO DOS SANTOS ZACHARIAS",
+    "email": "gustavo.zacharias@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260003",
+    "nome": "HARTUR VINICIUS DOS SANTOS FIDELIS",
+    "email": "hartur.fidelis@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260390",
+    "nome": "HELENA OLIVEIRA SEIXAS",
+    "email": "helena.seixas@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260070",
+    "nome": "HENRY KAUÃ LOPES DOS SANTOS",
+    "email": "henry.santos6@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260406",
+    "nome": "ISAQUE DE CASTRO ESTEVES",
+    "email": "isaque.esteves@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260395",
+    "nome": "JANAINA SOUZA EUFLAUZINO",
+    "email": "janaina.euflauzino@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260179",
+    "nome": "JEREMIAS ALVES DA SILVA SOARES",
+    "email": "jeremias.soares@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260261",
+    "nome": "JOÃO LUCAS MARGARIDO DE SOUZA",
+    "email": "joao.souza116@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260410",
+    "nome": "JÚLIA DE SANTANA",
+    "email": "julia.santana8@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260026",
+    "nome": "JÚLIA XIMENES SANTOS FERREIRA",
+    "email": "julia.ferreira13@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260018",
+    "nome": "KAIO SILVA DOS PRASERES",
+    "email": "kaio.praseres@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260231",
+    "nome": "KAUÊ FERNANDES RODRIGUES DOS SANTOS",
+    "email": "kaue.santos16@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260479",
+    "nome": "LUAN EVANGELISTA DE SOUZA CARVALHO",
+    "email": "luan.carvalho01@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260087",
+    "nome": "LUCAS DE OLIVEIRA FREITAS",
+    "email": "lucas.freitas13@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260263",
+    "nome": "LUCAS MIGUEL VITORIA DE OLIVEIRA",
+    "email": "lucas.oliveira122@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260271",
+    "nome": "MARCIO MARQUES DE OLIVEIRA JUNIOR",
+    "email": "marcio.oliveira18@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260100",
+    "nome": "MELISSA BARBOSA CREPALDI",
+    "email": "melissa.crepaldi@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260091",
+    "nome": "MIGUEL HENRIQUE RIBEIRO DOS ANJOS",
+    "email": "miguel.anjos@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260439",
+    "nome": "NICOLAS ANDERSON DA SILVA SANTOS",
+    "email": "nicolas.santos41@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260096",
+    "nome": "NICOLLAS PEREIRA DA SILVA",
+    "email": "nicollas.silva4@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260108",
+    "nome": "RAPHAEL ALVES PINHEIRO",
+    "email": "raphael.pinheiro@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260344",
+    "nome": "RYAN GUILHERME SILVA PIRES",
+    "email": "ryan.pires@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260262",
+    "nome": "SAMURAY CAMPOS PEREIRA LLARA",
+    "email": "samuray.llara@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260198",
+    "nome": "STEPHANY RODRIGUES OLIVEIRA",
+    "email": "stephany.oliveira3@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260144",
+    "nome": "VICTOR ALEXANDRE BORGES ALVES",
+    "email": "victor.alves10@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260124",
+    "nome": "WELLINGTON VIEIRA DE LIMA",
+    "email": "wellington.lima8@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260411",
+    "nome": "YUDI VIEIRA DE RESENDE",
+    "email": "yudi.resende@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260186",
+    "nome": "YURI GRASSIOTTO HAGUIHARA",
+    "email": "yuri.haguihara@aluno.cps.sp.gov.br",
+    "turma": "1º DS"
+  },
+  {
+    "rm": "260199",
+    "nome": "ANA JULLYA FERREIRA DOS SANTOS",
+    "email": "ana.santos256@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260285",
+    "nome": "ARTHUR BATISTA ANTUNES",
+    "email": "arthur.antunes@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260109",
+    "nome": "AYLTON ALVES SILVA SANTOS",
+    "email": "aylton.santos@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260472",
+    "nome": "BRAYAN RICHARD DE SOUZA ROCHA",
+    "email": "brayan.rocha2@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260064",
+    "nome": "CARLOS EDUARDO DA GAMA BONORINO",
+    "email": "carlos.bonorino@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260099",
+    "nome": "CAUÃ EUZÉBIO DA GAMA SOUZA",
+    "email": "caua.souza9@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260075",
+    "nome": "CESAR FERREIRA DE CARVALHO DANTAS",
+    "email": "cesar.dantas@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260227",
+    "nome": "CHRISTOFFER LEVI LIMA DA SILVA",
+    "email": "christoffer.silva@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260084",
+    "nome": "DANILO CARDOSO SAMPAIO",
+    "email": "danilo.sampaio@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260224",
+    "nome": "DAVI DOS SANTOS LOPES",
+    "email": "davi.lopes5@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260391",
+    "nome": "DAVI RIBEIRO DANTAS",
+    "email": "davi.dantas@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260032",
+    "nome": "DAVI WILSON MATOS SECKLER",
+    "email": "davi.seckler@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260317",
+    "nome": "EDUARDO HENRIQUE DA SILVA FERREIRA",
+    "email": "eduardo.ferreira15@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260025",
+    "nome": "ENZO FARIAS SILVA",
+    "email": "enzo.silva36@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260113",
+    "nome": "ENZO SIQUEIRA NOVAIS",
+    "email": "enzo.novais01@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260232",
+    "nome": "GABRIEL DA SILVA CHAVES",
+    "email": "gabriel.chaves3@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260125",
+    "nome": "GUILHERME PROCÓPIO DA SILVA FREITAS",
+    "email": "guilherme.freitas11@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260004",
+    "nome": "GUSTAVO REIS MENDONÇA",
+    "email": "gustavo.mendonca2@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260402",
+    "nome": "HELOYSA MORENA DA SILVA SOUTO",
+    "email": "heloysa.souto@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260443",
+    "nome": "JOAO MARCOS VIEIRA BRAYNER DA SILVA",
+    "email": "joao.silva434@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260428",
+    "nome": "JOSE VITOR TELES CORREA",
+    "email": "jose.correa2@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260208",
+    "nome": "JÚLIA MIDORI PASTANA KAWATOKO",
+    "email": "julia.kawatoko@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260083",
+    "nome": "JULIO CÉSAR MAGALHÃES GOMES",
+    "email": "julio.gomes5@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260123",
+    "nome": "JÚLLIA ALVES DA SILVA",
+    "email": "jullia.silva01@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260226",
+    "nome": "LIEDSON NUNES DE FÁRIAS LIMA",
+    "email": "liedson.lima@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260315",
+    "nome": "MANUELA MOTA SILVA",
+    "email": "manuela.silva16@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260171",
+    "nome": "MARIA EDUARDA DA SILVA SANTOS",
+    "email": "maria.santos285@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260163",
+    "nome": "MIGUEL CRUZ",
+    "email": "miguel.cruz5@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260401",
+    "nome": "MIGUEL GUIMARAES SILVA",
+    "email": "miguel.silva98@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260079",
+    "nome": "PEDRO HENRIQUE SILVA LEOPOLDINO",
+    "email": "pedro.leopoldino@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260090",
+    "nome": "PEDRO PEREIRA DA SILVA",
+    "email": "pedro.silva264@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260115",
+    "nome": "PEDRO VINÍCIUS ROCHA SANTOS",
+    "email": "pedro.santos162@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260449",
+    "nome": "RAFAEL MARTINS RIBEIRO",
+    "email": "rafael.ribeiro16@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260301",
+    "nome": "THIAGO VICTOR TRINCHETTI DOS SANTOS",
+    "email": "thiago.santos58@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260055",
+    "nome": "VALKYRIA ZUMBA DO NASCIMENTO",
+    "email": "valkyria.nascimento@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260057",
+    "nome": "VITÓRIA DALCIN DOS SANTOS MELO",
+    "email": "vitoria.melo7@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260049",
+    "nome": "WALLACY EVERTON ALVARAN DE MELLO",
+    "email": "wallacy.mello@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260040",
+    "nome": "WANESSA CRISTINA SOUSA ZOLINI",
+    "email": "wanessa.zolini@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260462",
+    "nome": "WEVERSON ALVES DA CRUZ",
+    "email": "weverson.cruz@aluno.cps.sp.gov.br",
+    "turma": "1º INFO"
+  },
+  {
+    "rm": "260238",
+    "nome": "ANA CLARA DE QUEIROZ SILVA",
+    "email": "ana.silva366@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260258",
+    "nome": "ANA CLARA REZENDE DO NASCIMENTO",
+    "email": "ana.nascimento31@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260175",
+    "nome": "ANA JULIA FERNANDES CAVALCANTE",
+    "email": "ana.cavalcante01@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260309",
+    "nome": "ANA LUÍSA GONÇALVES RIBEIRO DA SILVA",
+    "email": "ana.silva367@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260255",
+    "nome": "ANDRIELLY GOMES DE ANDRADE",
+    "email": "andrielly.andrade@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260211",
+    "nome": "ANTONIO MARCOS SANTOS MIRANDA",
+    "email": "antonio.miranda@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260491",
+    "nome": "BRÍGIDA BENINI REINO",
+    "email": "brigida.reino@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260006",
+    "nome": "BRUNA ÁGATA SANTOS ALVES",
+    "email": "bruna.alves7@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260280",
+    "nome": "DANIELLA ALENCAR BENEVIDES",
+    "email": "daniela.benevides@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260119",
+    "nome": "DAVI ALVES DE OLIVEIRA",
+    "email": "davi.oliveira110@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260102",
+    "nome": "EMANUELLY NOGUEIRA DOS SANTOS",
+    "email": "emanuelly.santos2@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260193",
+    "nome": "ESTER DOS SANTOS CAMARGO",
+    "email": "ester.camargo@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260392",
+    "nome": "GEOVANNA DOS ANJOS LOPES DA SILVA",
+    "email": "geovanna.silva22@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260388",
+    "nome": "GIULIA FERNANDES DOS SANTOS CARVALHO",
+    "email": "giulia.carvalho@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260160",
+    "nome": "HELENA FERREIRA SANTOS",
+    "email": "helena.santos5@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260237",
+    "nome": "IZABELLA PEREIRA DA CRUZ",
+    "email": "izabella.cruz@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260014",
+    "nome": "JOYCE ALVES DE OLIVEIRA",
+    "email": "joyce.oliveira5@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260442",
+    "nome": "JULIA DA MATA SILVA",
+    "email": "julia.silva151@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260017",
+    "nome": "JULIA OLIVEIRA CARDOSO",
+    "email": "julia.cardoso5@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260422",
+    "nome": "JULIA VIEIRA NOGUEIRA",
+    "email": "julia.nogueira2@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260235",
+    "nome": "KAUÊ DE SOUZA SILVA",
+    "email": "kaue.silva29@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260128",
+    "nome": "KEVYN DAMASCENO COSTA DA SILVA",
+    "email": "kevyn.silva3@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260180",
+    "nome": "LARISSA OLIVEIRA DA SILVA",
+    "email": "larissa.silva96@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260354",
+    "nome": "LEONARDO CONCEIÇÃO SANTANA",
+    "email": "leonardo.santana2@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260141",
+    "nome": "MARIA CAROLINE MENDONÇA ALMEIDA",
+    "email": "maria.almeida30@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260178",
+    "nome": "MARIA EDUARDA DE OLIVEIRA",
+    "email": "maria.oliveira152@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260276",
+    "nome": "MARIA EDUARDA SANTOS",
+    "email": "maria.santos283@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260167",
+    "nome": "MARIA LUIZA DE SOUZA",
+    "email": "maria.souza109@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260291",
+    "nome": "MARIA SOPHIA ALVES CASTRO PENA",
+    "email": "maria.pena@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260191",
+    "nome": "MARIANE GONÇALVES DE FREITAS",
+    "email": "mariane.freitas@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260131",
+    "nome": "MIKAELLY APARECIDA DA SILVA",
+    "email": "mikaelly.silva@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260408",
+    "nome": "NATHALIA APARECIDA SOUZA SANTOS",
+    "email": "nathalia.santos15@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260036",
+    "nome": "PEDRO HENRIQUE DOS SANTOS OLIVEIRA",
+    "email": "pedro.oliveira112@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260194",
+    "nome": "SOFIA SILVA ROSA",
+    "email": "sofia.rosa01@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260397",
+    "nome": "SOPHIA CARVALHO DE FREITAS",
+    "email": "sophia.freitas01@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260436",
+    "nome": "THAISSA CAROLINA RIBERIO MORAES",
+    "email": "thaissa.moraes@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260249",
+    "nome": "YAGO RAPHAEL ROCHA DE PAULA",
+    "email": "yago.paula01@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260187",
+    "nome": "YASMIN LOHANNY ARAUJO DIAS",
+    "email": "yasmin.dias2@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260516",
+    "nome": "YASMIN MARTINS DOS REIS",
+    "email": "yasmin.reis7@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260400",
+    "nome": "YASMIN MATOS ALVES",
+    "email": "yasmin.alves6@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - MANHÃ"
+  },
+  {
+    "rm": "260126",
+    "nome": "ALEX SANDRO GONÇALVES VIANA",
+    "email": "alex.viana01@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260424",
+    "nome": "ANA BEATRIZ OLIVEIRA LANDULFO",
+    "email": "ana.landulfo@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260403",
+    "nome": "ANA CLARA ALEIXO LEMOS",
+    "email": "ana.lemos01@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260072",
+    "nome": "ANA LUIZA LAUREANO SOARES",
+    "email": "ana.soares24@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260019",
+    "nome": "ANA VITÓRIA OLIVEIRA DA SILVA",
+    "email": "ana.silva321@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260310",
+    "nome": "ANNA BEATRIZ SILVANA MOREIRA",
+    "email": "anna.moreira@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260414",
+    "nome": "BEATRIZ DO CARMO BEDLEQUE SILVEIRA",
+    "email": "beatriz.silveira3@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260431",
+    "nome": "CHRISTIAN EDUARDO PEREIRA DOS SANTOS",
+    "email": "christian.santos5@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260166",
+    "nome": "CLARA FRIEDS DE ARAUJO",
+    "email": "clara.araujo01@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260452",
+    "nome": "ELOISA ANTONIO PIMENTEL",
+    "email": "eloisa.pimentel@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260118",
+    "nome": "FELIPE HOSHIDA YAMANAKA",
+    "email": "felipe.yamanaka@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260432",
+    "nome": "GABRIELLY VICTORIA DE JESUS COSTA",
+    "email": "gabrielly.costa@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260110",
+    "nome": "HEITOR MARTINS DE FREITAS",
+    "email": "heitor.freitas@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260272",
+    "nome": "HELLEN OLIVEIRA DOS SANTOS",
+    "email": "hellen.santos2@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260043",
+    "nome": "ISABELLA SANTOS ROSA",
+    "email": "isabella.rosa01@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260117",
+    "nome": "JOÃO VITOR PEREIRA GIMENEZ VALENTE",
+    "email": "joao.valente2@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260290",
+    "nome": "JOSUÉ DE PAULA FREIRE",
+    "email": "josue.freire@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260295",
+    "nome": "KAUANE CAVALCANTE DO NASCIMENTO",
+    "email": "kauane.nascimento01@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260446",
+    "nome": "KETHELYN SABRINA DA SILVA SANTANA",
+    "email": "kethelyn.santana01@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260092",
+    "nome": "LUARA NAIZA DE LIMA",
+    "email": "luara.lima01@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260195",
+    "nome": "MARIA EDUARDA FILBRICH GARZOLA MUNIZ",
+    "email": "maria.muniz@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260236",
+    "nome": "MARIANA QUEIROZ E BRAZ",
+    "email": "mariana.braz@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260340",
+    "nome": "MATHEUS LEAL PRIMO DE SENA",
+    "email": "matheus.sena@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260181",
+    "nome": "MELISSA MARANGON",
+    "email": "melissa.marangon@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260218",
+    "nome": "NICOLLY MARTINS FAIANI",
+    "email": "nicolly.faiani@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260245",
+    "nome": "NICOLLY VICTORIA TAVARES DE SOUZA SILVA",
+    "email": "nicolly.silva25@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260133",
+    "nome": "PAULO RICARDO CARVALHO DE SOUZA",
+    "email": "paulo.souza21@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260106",
+    "nome": "RAFAELA GONÇALVES ORIAS",
+    "email": "rafaela.orias@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260024",
+    "nome": "RAFAELA SOARES DA SILVA",
+    "email": "rafaela.silva52@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260120",
+    "nome": "RENNAN VICENTE MARQUES DE ARAUJO",
+    "email": "rennan.araujo@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260192",
+    "nome": "SANTIAGO SANTOS DE ARAUJO",
+    "email": "santiago.araujo@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260265",
+    "nome": "SARA BONFIM ALVES",
+    "email": "sara.alves2@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260450",
+    "nome": "SOPHIA CAROLINO SANTOS",
+    "email": "sophia.santos32@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260418",
+    "nome": "SOPHIA MIRANDA OLIVEIRA DA SILVA",
+    "email": "sophia.silva44@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260275",
+    "nome": "STELA RIBEIRO LIMA",
+    "email": "stela.lima@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260047",
+    "nome": "STHEFFANY CARVALHO DA SILVA",
+    "email": "stheffany.silva@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260217",
+    "nome": "VICTOR TAYLER FERNANDES DA SILVA",
+    "email": "victor.silva134@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "261144",
+    "nome": "WALLACE ESTEVÃO EDUARDO RODRIGUES",
+    "email": "wallace.rodrigues2@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260088",
+    "nome": "YASMIN SOARES CORREIA",
+    "email": "yasmin.correia2@aluno.cps.sp.gov.br",
+    "turma": "1º NUTRI - TARDE"
+  },
+  {
+    "rm": "260365",
+    "nome": "ALICE MATOS DUARTE",
+    "email": "alice.duarte@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260066",
+    "nome": "ALLINY VICTÓRIA ANTONELLI PAIVA",
+    "email": "alliny.paiva@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260015",
+    "nome": "ANA JULIA MARTINS ALVES",
+    "email": "ana.alves35@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260409",
+    "nome": "BEATRIZ BATISTA DE OLIVEIRA",
+    "email": "beatriz.oliveira42@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260080",
+    "nome": "BRYAN IZIDORO DE CARVALHO",
+    "email": "bryan.carvalho01@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260021",
+    "nome": "CHIZARAMEKPERE VICTORY CHUKWUEMEKA",
+    "email": "chizaramekpere.chukwuemeka@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260177",
+    "nome": "EDUARDA DE LIMA FEITOSA",
+    "email": "eduarda.feitosa@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260498",
+    "nome": "ESTER FERREIRA DE OLIVEIRA",
+    "email": "ester.oliveira3@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260112",
+    "nome": "FELIPE LIMA VENTUROLI LEAL",
+    "email": "felipe.leal01@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260206",
+    "nome": "GABRIEL FERREIRA ENEMCHUKWU",
+    "email": "gabriel.enemchukwu@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260149",
+    "nome": "GABRIEL NUNES BUENO",
+    "email": "gabriel.bueno7@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260030",
+    "nome": "GABRIELA CARVALHAIS DOS SANTOS",
+    "email": "gabriela.santos42@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260399",
+    "nome": "GIULLYA LARA NASCIMENTO DE JESUS",
+    "email": "giullya.jesus@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260212",
+    "nome": "HELANO GABRIEL DA SILVA GONÇALVES",
+    "email": "helano.goncalves@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260454",
+    "nome": "HELOISE NATALY DOS SANTOS",
+    "email": "heloise.santos01@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260174",
+    "nome": "IARA MARQUES SOUTO TRINDADE",
+    "email": "iara.trindade@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260039",
+    "nome": "ISABELA OLIVEIRA GOMES",
+    "email": "isabela.gomes8@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260073",
+    "nome": "JAMILA GONÇALVES RAMOS DE AMORIM",
+    "email": "jamila.amorim@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260427",
+    "nome": "JOAO VITOR SANTANA BARBOSA",
+    "email": "joao.barbosa20@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260448",
+    "nome": "KEMILLY FAGUNDES DA SILVA",
+    "email": "kemilly.silva4@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260129",
+    "nome": "KEVIN CHRISTIAN CHURA CACHACA",
+    "email": "kevin.cachaca@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260148",
+    "nome": "KYARA DA SILVEIRA PAULO",
+    "email": "kyara.paulo@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260053",
+    "nome": "LAURA PERES DA SILVA",
+    "email": "laura.silva43@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260259",
+    "nome": "LEONARDO MONTEIRO ANDRADE",
+    "email": "leonardo.andrade6@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260207",
+    "nome": "LETYCIA ALVES DA SILVA ARAUJO",
+    "email": "letycia.araujo@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260138",
+    "nome": "MARCOS HENRIQUE DE AZEVEDO SILVA",
+    "email": "marcos.silva73@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260098",
+    "nome": "MARIA EDUARDA FERREIRA DA MATA",
+    "email": "maria.mata@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260469",
+    "nome": "MARIANA FERNANDES CAMPOS LUCARIELLI",
+    "email": "mariana.lucarielli@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260286",
+    "nome": "MATHEUS MONTEIRO NOBERTO",
+    "email": "matheus.noberto@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260201",
+    "nome": "MERYANNE RODRIGUES SILVA PACO",
+    "email": "meryanne.paco@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260571",
+    "nome": "MICAELLY FERNANDA DE SOUZA GUEDES FREITAS",
+    "email": "micaelly.freitas@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260155",
+    "nome": "MIGUEL HENRIQUE NEVES DE OLIVEIRA",
+    "email": "miguel.oliveira27@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260241",
+    "nome": "MURILO CAVALCANTI SILVA",
+    "email": "murilo.silva44@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260416",
+    "nome": "PYETRA DOS SANTOS MATIAS",
+    "email": "pyetra.matias@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260393",
+    "nome": "RIHANNA JULIA FRANCA LOPES",
+    "email": "rihanna.lopes@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260184",
+    "nome": "RYAN DE OLIVEIRA DOS SANTOS",
+    "email": "ryan.santos20@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260313",
+    "nome": "SUKURAT ADEWUMI RASAKI SANTOS",
+    "email": "sukurat.santos@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260586",
+    "nome": "VICTOR HELIO CASTALDELI MOURA",
+    "email": "victor.moura4@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260502",
+    "nome": "VINICIUS PEREIRA DOS SANTOS",
+    "email": "vinicius.santos97@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260430",
+    "nome": "YASMIN FRANCA SALOMAO",
+    "email": "yasmin.salomao@aluno.cps.sp.gov.br",
+    "turma": "1º QUI"
+  },
+  {
+    "rm": "260071",
+    "nome": "ALAN LEITE DA SILVA",
+    "email": "alan.silva14@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260062",
+    "nome": "ALEXIA LAURA PEREIRA MARCONDES",
+    "email": "alexia.marcondes@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260441",
+    "nome": "ANA CAROLINA RODRIGUES LIMA",
+    "email": "ana.lima48@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260341",
+    "nome": "ANA LUIZA SILVA DOS SANTOS",
+    "email": "ana.santos205@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260038",
+    "nome": "ANA VITÓRIA GOMES PEREIRA",
+    "email": "ana.pereira57@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260215",
+    "nome": "ANDRÉ LUÍS SILVA DIAS",
+    "email": "andre.dias2@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260082",
+    "nome": "ANELISA DA SILVA DE ALMEIDA",
+    "email": "anelisa.almeida@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260356",
+    "nome": "ANITA MANUELLE PEREIRA VASCONCELOS",
+    "email": "anita.vasconcelos@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260061",
+    "nome": "BIANCA BERNARDO DO NASCIMENTO",
+    "email": "bianca.nascimento4@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260512",
+    "nome": "EDUARDA ARTONI FABRINI",
+    "email": "eduarda.fabrini@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260202",
+    "nome": "ELOISA FERREIRA ENEMCHUKWU",
+    "email": "eloisa.enemchukwu@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260266",
+    "nome": "EMANUELY REGINA DOS SANTOS FERREIRA",
+    "email": "emanuely.ferreira@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260316",
+    "nome": "EMILLY CAROLINE CÂNDIDO GONÇALVES DO NASCIMENTO",
+    "email": "emilly.nascimento5@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260002",
+    "nome": "GABRIEL ALVES CARVALHO",
+    "email": "gabriel.carvalho19@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260257",
+    "nome": "GABRIELLE CRISTINA DOURADO DE SANTANA",
+    "email": "gabrielle.santana@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260233",
+    "nome": "GEOVANNA DOS SANTOS SILVA",
+    "email": "geovanna.silva19@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260093",
+    "nome": "GUILHERME DAVI LOURENÇO DIAS",
+    "email": "guilherme.dias9@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260051",
+    "nome": "ISABELLA BORGES",
+    "email": "isabella.borges4@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260107",
+    "nome": "ISABELY DE MACÊDO DA SILVA",
+    "email": "isabely.silva3@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260145",
+    "nome": "KARINE SILVA DE SOUZA",
+    "email": "karine.souza3@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260023",
+    "nome": "KETELIN ESTHER DUARTE DE PAULA",
+    "email": "ketelin.paula@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260130",
+    "nome": "LAÍS CAROLLYNE DOS SANTOS",
+    "email": "lais.santos9@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260029",
+    "nome": "LETICIA VITORIA PORDEUS LIRA",
+    "email": "leticia.lira@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260492",
+    "nome": "LORENA DE ALENCAR SILVA",
+    "email": "lorena.silva20@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260033",
+    "nome": "LUIZ GUILHERME ALVES DA SILVA",
+    "email": "luiz.silva122@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260343",
+    "nome": "MAISA SANTOS TELES DE SOUZA",
+    "email": "maisa.souza4@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260046",
+    "nome": "MARIA CLARA ROCHA DOS SANTOS",
+    "email": "maria.santos238@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260482",
+    "nome": "MARIA EDUARDA ALVES DO PRADO",
+    "email": "maria.prado5@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260168",
+    "nome": "MARIA EDUARDA MIRANDA DA SILVA",
+    "email": "maria.silva341@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260016",
+    "nome": "MARIA FERNANDA DE FREITAS SILVA",
+    "email": "maria.silva342@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260222",
+    "nome": "MARIANA LIBARINO GORBINE",
+    "email": "mariana.gorbine@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260488",
+    "nome": "MURILO CERIACO FERREIRA",
+    "email": "murilo.ferreira9@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260320",
+    "nome": "NATÁLIA MELISSA DA COSTA DIONIZIO",
+    "email": "natalia.dionizio@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260358",
+    "nome": "PEDRO TIAGO VIEIRA NUNES",
+    "email": "pedro.nunes6@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260584",
+    "nome": "RAIANY NATALY VICENTE DA SILVA ROCHA",
+    "email": "raiany.rocha@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260299",
+    "nome": "RAYLA ARAUJO DOS SANTOS",
+    "email": "rayla.santos@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260056",
+    "nome": "REBECA RESENDE DOS SANTOS",
+    "email": "rebeca.santos13@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260081",
+    "nome": "RYHANNA ASSIS DOS SANTOS SOARES",
+    "email": "ryhanna.soares@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260135",
+    "nome": "WALLACE BENTO DA SILVA",
+    "email": "wallace.silva12@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "260103",
+    "nome": "YASMIN MARCELINO ALVES",
+    "email": "yasmin.alves5@aluno.cps.sp.gov.br",
+    "turma": "1º RH"
+  },
+  {
+    "rm": "250377",
+    "nome": "ALICIA BRITO",
+    "email": "alicia.brito@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250034",
+    "nome": "ARTHUR GABRIEL TOMAZ FRANCO",
+    "email": "arthur.franco@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250213",
+    "nome": "ENZO ESTEVES SILVEIRA",
+    "email": "enzo.silveira@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250365",
+    "nome": "FABRICIO FONSECA DE SOUSA",
+    "email": "fabricio.sousa01@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250489",
+    "nome": "FELIPE DE OLIVEIRA HONORATO",
+    "email": "felipe.honorato01@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250323",
+    "nome": "FELIPE NONATO DOS SANTOS",
+    "email": "felipe.santos99@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250209",
+    "nome": "GABRIEL COSTA SILVA",
+    "email": "gabriel.silva358@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250301",
+    "nome": "GABRIELLY VITÓRIA ALMEIDA DA HORA",
+    "email": "gabrielly.hora@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250173",
+    "nome": "GABRIELY DE SOUSA ARAÚJO",
+    "email": "gabriely.araujo@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250115",
+    "nome": "GUILHERME MIGUEL GONÇALVES CATALDI CAVALCANTE",
+    "email": "guilherme.cavalcante01@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250082",
+    "nome": "GUSTAVO DIAS LUCIANO",
+    "email": "gustavo.luciano@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250093",
+    "nome": "ISABELLY DA SILVA",
+    "email": "isabelly.silva46@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250559",
+    "nome": "ITALO PINHEIRO DOS SANTOS SILVA",
+    "email": "italo.silva9@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250314",
+    "nome": "JOÃO PEDRO APARECIDO ROCHA DE OLIVEIRA",
+    "email": "joao.oliveira164@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250149",
+    "nome": "JOSUÉ TEIXEIRA DE LIMA",
+    "email": "josue.lima@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250141",
+    "nome": "JULIA ALMEIDA DA SILVA LOBATO",
+    "email": "julia.lobato01@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250460",
+    "nome": "JULIA DE ALMEIDA LIMA",
+    "email": "julia.lima35@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250564",
+    "nome": "KAUAN VIEIRA DA SILVA FONTES",
+    "email": "kauan.fontes@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250434",
+    "nome": "KEVIN BRITO VILLCA TITIRICO",
+    "email": "kevin.titirico@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250349",
+    "nome": "LARA BESSA DOS SANTOS REZENDE",
+    "email": "lara.rezende01@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250133",
+    "nome": "LAYS PIETRA ANDRÉ DO NASCIMENTO",
+    "email": "lays.nascimento@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250180",
+    "nome": "LAYS ROCHA DE OLIVEIRA",
+    "email": "lays.oliveira@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250442",
+    "nome": "LIVIA NASCIMENTO SIRQUEIRA",
+    "email": "livia.sirqueira@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250236",
+    "nome": "LÍVIA SOUSA ISIDORO",
+    "email": "livia.isidoro@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250042",
+    "nome": "LUCAS SANTOS GUIMARÃES",
+    "email": "lucas.guimaraes3@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "260572",
+    "nome": "LUCCAS HENRIQUE GONÇALVES DA SILVA",
+    "email": "luccas.silva5@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250202",
+    "nome": "LUDMYLA SANTANA DE JESUS SILVA",
+    "email": "ludmyla.silva@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250157",
+    "nome": "MARCOS ANTONIO CAMARGO DE ANDRADE",
+    "email": "marcos.andrade7@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250004",
+    "nome": "MARINA DE CAMARGO LEITE",
+    "email": "marina.leite@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250308",
+    "nome": "MARINA MENEZES DA SILVA SANTOS",
+    "email": "marina.santos12@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250197",
+    "nome": "MATHEUS ALVES BARBOSA",
+    "email": "matheus.barbosa15@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250347",
+    "nome": "MATHEUS LOPES DA SILVA",
+    "email": "matheus.silva262@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250380",
+    "nome": "PEDRO HENRIQUE GONÇALVES MENDES",
+    "email": "pedro.mendes5@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250488",
+    "nome": "RAYSSA VITÓRIA SOUZA FONSECA",
+    "email": "rayssa.fonseca@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "260520",
+    "nome": "SAMUEL ASAFE AVELAR DE ANDRADE",
+    "email": "samuel.andrade6@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250319",
+    "nome": "SOPHIA ABREU FERREIRA LUCAS",
+    "email": "sophia.lucas@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250162",
+    "nome": "VICTOR MATHEUS DA SILVA MACEDO",
+    "email": "victor.macedo5@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250453",
+    "nome": "VITORIA BATISTA DE ALMEIDA",
+    "email": "vitoria.almeida11@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250217",
+    "nome": "WENDERSON RODRIGUES PAZ DE SOUZA",
+    "email": "wenderson.souza@aluno.cps.sp.gov.br",
+    "turma": "2º ADM"
+  },
+  {
+    "rm": "250560",
+    "nome": "ANDREW GABRIEL DAMASCENO SANTOS",
+    "email": "andrew.santos2@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250443",
+    "nome": "BEATRIZ DO NASCIMENTO SILVA",
+    "email": "beatriz.silva132@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250199",
+    "nome": "CARLOS HENRIQUE PEREIRA DOS SANTOS",
+    "email": "carlos.santos60@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250229",
+    "nome": "CAUÃ DE OLVEIRA PAVARIN",
+    "email": "caua.pavarin@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250296",
+    "nome": "CAUÃ RODRIGUES PEDROZO",
+    "email": "caua.pedrozo@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250044",
+    "nome": "DÉBORA GOMES DA SILVA",
+    "email": "debora.silva28@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250262",
+    "nome": "DIEGO DO AMARAL LIMA JÚNIOR",
+    "email": "diego.lima7@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250331",
+    "nome": "EMILLY GOMES DOS SANTOS RODRIGUES",
+    "email": "emilly.rodrigues5@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250440",
+    "nome": "ENZO HENRIQUE CARVALHO DE OLIVEIRA",
+    "email": "enzo.oliveira47@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250050",
+    "nome": "ESTEFANI GUTIERREZ FLORES",
+    "email": "estefani.flores@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250118",
+    "nome": "ESTHER BEATRIZ DA CRUZ BRANDÃO",
+    "email": "esther.brandao@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250063",
+    "nome": "GABRIEL LACERDA DE OLIVEIRA",
+    "email": "gabriel.oliveira136@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250011",
+    "nome": "GABRIEL OLIVEIRA SILVA",
+    "email": "gabriel.silva353@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250400",
+    "nome": "GABRIEL PENHA MONTEIRO",
+    "email": "gabriel.monteiro5@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250152",
+    "nome": "GABRIEL SANTOS SILVA",
+    "email": "gabriel.silva354@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250228",
+    "nome": "IGOR OLIVEIRA CERQUEIRA",
+    "email": "igor.cerqueira@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250486",
+    "nome": "ISABELLY BATISTA DA SILVA",
+    "email": "isabelly.silva44@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250061",
+    "nome": "JEFFERSON FREITAS DE MEDEIROS",
+    "email": "jefferson.medeiros@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "230376",
+    "nome": "JESSE FERNANDES ORTIZ",
+    "email": "jesse.ortiz@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250285",
+    "nome": "JÉSSICA DA SILVA ARAUJO",
+    "email": "jessica.araujo3@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250101",
+    "nome": "JHONATA SILVA DOS SANTOS",
+    "email": "jhonata.santos@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250006",
+    "nome": "JOÃO VICTOR TEODOSIO MENEGHETTI",
+    "email": "joao.meneghetti@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250125",
+    "nome": "JOSÉ ANTONIO GOMES DA SILVA MENDES",
+    "email": "jose.mendes01@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250246",
+    "nome": "LEON SAMUEL SILVA CHAVES",
+    "email": "leon.chaves@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250474",
+    "nome": "LEONARDO GAIGUER BARROS",
+    "email": "leonardo.barros2@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250514",
+    "nome": "LETICIA DE SA TEIXEIRA",
+    "email": "leticia.teixeira3@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250429",
+    "nome": "LUCAS DANIEL COSTA",
+    "email": "lucas.costa39@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250073",
+    "nome": "LUCAS MACIEL GARCIA OLIVEIRA",
+    "email": "lucas.oliveira123@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250459",
+    "nome": "MARIA LAURA ALMEIDA DA SILVEIRA",
+    "email": "maria.silveira7@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250500",
+    "nome": "MICAELLY DA CRUZ ROCHA",
+    "email": "micaelly.rocha@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250122",
+    "nome": "MIGUEL ANGELO SOUZA",
+    "email": "miguel.souza27@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250178",
+    "nome": "MURILO LOURENÇO DE JESUS",
+    "email": "murilo.jesus3@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250435",
+    "nome": "NICOLY LEAL TEXEIRA",
+    "email": "nicoly.texeira@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250026",
+    "nome": "OLUWAGBENGA FLAVIO DANIEL OLUWATOMILOYE",
+    "email": "oluwagbenga.oluwatomiloye@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250071",
+    "nome": "PAULO VICTOR DA SILVA MORAIS",
+    "email": "paulo.morais3@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250099",
+    "nome": "RAFAEL DA HORA CANTERO",
+    "email": "rafael.cantero@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250085",
+    "nome": "RAUL BARBOSA CARRERA",
+    "email": "raul.carrera@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250493",
+    "nome": "ROBERTH LEITE DA SILVA",
+    "email": "roberth.silva@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250111",
+    "nome": "WESLEY FERNANDES RODRIGUES",
+    "email": "wesley.rodrigues2@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250332",
+    "nome": "YASMIN ARAUJO RODRIGUES",
+    "email": "yasmin.rodrigues9@aluno.cps.sp.gov.br",
+    "turma": "2ºDS"
+  },
+  {
+    "rm": "250511",
+    "nome": "ADRIANO FELIX PEREIRA DA COSTA",
+    "email": "adriano.costa3@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "260517",
+    "nome": "ANA BEATRIZ PEREIRA MARTINS",
+    "email": "ana.martins49@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250046",
+    "nome": "ARTHUR BIANCK OLIVEIRA SANTOS",
+    "email": "arthur.santos61@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250238",
+    "nome": "BEATRIZ MARIA LEONARDO SOUZA",
+    "email": "beatriz.souza35@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250265",
+    "nome": "BRYAN DA SILVA PIMENTEL",
+    "email": "bryan.pimentel@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250436",
+    "nome": "CARLOS DANIEL GUIMARÃES DE SOUSA",
+    "email": "carlos.sousa5@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250243",
+    "nome": "DANIEL PAES SANTOS",
+    "email": "daniel.santos70@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250016",
+    "nome": "EDUARDO MESSIAS ANJOS ALBUQUERQUE",
+    "email": "eduardo.albuquerque01@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250107",
+    "nome": "EMANOEL VINICIUS SANTOS LOPES",
+    "email": "emanoel.lopes@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250401",
+    "nome": "ERICK NASCIMENTO DE MELO",
+    "email": "erick.melo01@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250251",
+    "nome": "GABRIEL SANTOS MISAEL DE FREITAS",
+    "email": "gabriel.freitas13@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250077",
+    "nome": "GREICE OLIVEIRA TREVISO",
+    "email": "greice.treviso@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250142",
+    "nome": "HENRIQUE APARECIDO DA SILVA COSTA",
+    "email": "henrique.costa7@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250268",
+    "nome": "ISAAC DE MASSENA GONÇALVES SILVA",
+    "email": "isaac.silva12@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250069",
+    "nome": "ISABELLY CARVALHO PICCINATO",
+    "email": "isabelly.piccinato@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250165",
+    "nome": "JOÃO AUGUSTO GONÇALVES MOREIRA DE CASTRO",
+    "email": "joao.castro8@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250311",
+    "nome": "JOÃO VITOR DA SILVA ALMEIDA",
+    "email": "joao.almeida39@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250447",
+    "nome": "JOÃO VITOR EDUARDO DE OLIVEIRA",
+    "email": "joao.oliveira162@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250444",
+    "nome": "JORDAN PAULINO GALHEGO SILVA",
+    "email": "jordan.silva3@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250102",
+    "nome": "LUCAS LOPES MELANIA",
+    "email": "lucas.melania@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250502",
+    "nome": "LUCAS SPINOZA",
+    "email": "lucas.spinoza@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250280",
+    "nome": "LUIS FELIPE DA SILVA LIMA",
+    "email": "luis.lima18@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250513",
+    "nome": "MYLLENA ZEFERINO GUIMARÃES",
+    "email": "myllena.guimaraes@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "260519",
+    "nome": "NICOLAS REIS CAVALCANTE LOPES",
+    "email": "nicolas.lopes4@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250245",
+    "nome": "PEDRO ELIAS SANTOS PEREIRA",
+    "email": "pedro.pereira63@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250326",
+    "nome": "PEDRO HENRIQUE BEZERRA ALVES",
+    "email": "pedro.alves22@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250153",
+    "nome": "PEDRO HENRIQUE RODRIGUES DA SILVA",
+    "email": "pedro.silva267@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "260518",
+    "nome": "PEDRO HENRYQUE BECO RAYER",
+    "email": "pedro.rayer@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250131",
+    "nome": "PEDRO LUIZ SOUSA SANTOS",
+    "email": "pedro.santos164@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250313",
+    "nome": "RHARLEY HENDERSON REIS DE ANDRADE",
+    "email": "rharley.andrade@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250290",
+    "nome": "SAMYA MALIKA ARAUJO ANTONIO",
+    "email": "samya.antonio@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250216",
+    "nome": "TALITA SILVA ESTEVÃO DE ALMEIDA",
+    "email": "talita.almeida01@aluno.cps.sp.gov.br",
+    "turma": "2º INFO"
+  },
+  {
+    "rm": "250092",
+    "nome": "AFONSO GUEDES",
+    "email": "afonso.guedes@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250121",
+    "nome": "ALICE SANTIAGO DAMACENO",
+    "email": "alice.damaceno@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250257",
+    "nome": "ANA CECÍLIA DOS SANTOS JERONIMO HENRIQUE",
+    "email": "ana.henrique01@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250431",
+    "nome": "ANA VITORIA BEZERRA LIMA",
+    "email": "ana.lima52@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250386",
+    "nome": "ANDRESSA GABRIELLY SANTOS DE SOUSA",
+    "email": "andressa.sousa2@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250137",
+    "nome": "ANNA CLARA SILVA DE ARAÚJO",
+    "email": "anna.araujo6@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250007",
+    "nome": "ANNA LUIZA RAMOS DA SILVA",
+    "email": "anna.silva50@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250072",
+    "nome": "EDUARDA ARAUJO PASSOS DOS SANTOS",
+    "email": "eduarda.santos22@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250471",
+    "nome": "EDUARDA BERGAMASCHI MATARENZO",
+    "email": "eduarda.matarenzo@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250270",
+    "nome": "EDUARDA DOS SANTOS SANTANA",
+    "email": "eduarda.santana@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250038",
+    "nome": "ELLEN VITORIA ALVES LIMA",
+    "email": "ellen.lima3@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250021",
+    "nome": "ELOAH SANTOS DE LIMA PARDAL",
+    "email": "eloah.pardal@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250146",
+    "nome": "GABRIELLE CARDOSO SOARES",
+    "email": "gabrielle.soares@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250054",
+    "nome": "GIOVANNA DE SOUSA SANTOS",
+    "email": "giovanna.santos36@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250000",
+    "nome": "HENRIQUE HONORATO DE FRANÇA CONCEIÇÃO",
+    "email": "henrique.conceicao@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250171",
+    "nome": "ISABELA BERGAMASCHI DE LIMA",
+    "email": "isabela.lima3@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250024",
+    "nome": "ISABELLY VICTÓRIA DE SOUZA",
+    "email": "isabelly.souza7@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250244",
+    "nome": "JOHNNY KAUÃ ALMEIDA CRUZ",
+    "email": "johnny.cruz@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250315",
+    "nome": "JULYA QUEIROZ SILVA",
+    "email": "julya.silva4@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250292",
+    "nome": "KAMILI MELO DA COSTA",
+    "email": "kamili.costa@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250335",
+    "nome": "KAMILLY FERREIRA ALVES",
+    "email": "kamilly.alves01@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250031",
+    "nome": "LARA MIRELLA CASSIANO ALVES",
+    "email": "lara.alves01@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250478",
+    "nome": "LARISSA FARIA DE OLIVEIRA",
+    "email": "larissa.oliveira37@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "260486",
+    "nome": "LETICIA DE JESUS AQUINO",
+    "email": "leticia.aquino01@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250013",
+    "nome": "MARIA EDUARDA BEZERRA FERREIRA LIMA",
+    "email": "maria.lima57@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250043",
+    "nome": "MARIA FERNANDA FREITAS TAVEIRA",
+    "email": "maria.taveira@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250324",
+    "nome": "MARIA ISABELLA BORGES DE BARROS",
+    "email": "maria.barros12@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250302",
+    "nome": "MARIA LUIZA SILVA DE CARVALHO",
+    "email": "maria.carvalho30@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250048",
+    "nome": "MARIANA VIEIRA DE CARVALHO",
+    "email": "mariana.carvalho3@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250441",
+    "nome": "MARIANA VITOR CARDOZO SOARES",
+    "email": "mariana.soares5@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250081",
+    "nome": "MATEUS ACACIO MORAES",
+    "email": "mateus.moraes4@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250273",
+    "nome": "MELISSA ALVES GARISTO",
+    "email": "melissa.garisto@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250160",
+    "nome": "MELISSA JESUS DE ALBUQUERQUE",
+    "email": "melissa.albuquerque01@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250483",
+    "nome": "MILENA CANDIDO",
+    "email": "milena.candido@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250536",
+    "nome": "MILENY CARDOSO FREIRE",
+    "email": "mileny.freire@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250124",
+    "nome": "MIRELLA HOLANDA DA SILVA",
+    "email": "mirella.silva9@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250339",
+    "nome": "RAQUEL MARIA DE MOURA SIMÃO",
+    "email": "raquel.simao@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250230",
+    "nome": "SOPHIA CHRISTINI PAIXÃO DE MELO",
+    "email": "sophia.melo@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250188",
+    "nome": "YASMIM CALDEIRA GOMES",
+    "email": "yasmim.gomes3@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250076",
+    "nome": "YASMIN DINIZ DE OLIVEIRA",
+    "email": "yasmin.oliveira24@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "260421",
+    "nome": "YASMIN PEREIRA DA SILVA",
+    "email": "yasmin.silva66@aluno.cps.sp.gov.br",
+    "turma": "2º NUTRI"
+  },
+  {
+    "rm": "250468",
+    "nome": "ANA BEATRIZ SILVA OLIVEIRA",
+    "email": "ana.oliveira152@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250222",
+    "nome": "ANA CLARA MARQUES DA GAMA",
+    "email": "ana.gama01@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250123",
+    "nome": "ARIANE DOS REIS MACÁRIO",
+    "email": "ariane.macario@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250059",
+    "nome": "BEATRIZ EVA DE SOUZA",
+    "email": "beatriz.souza29@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250144",
+    "nome": "BRUNA NUNES JACOT",
+    "email": "bruna.jacot@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250083",
+    "nome": "BRUNO YGOR DA SILVA LIMA",
+    "email": "bruno.lima20@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250263",
+    "nome": "ELISEU INÁCIO BARBOSA DA CRUZ",
+    "email": "eliseu.cruz@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250294",
+    "nome": "EMANUELLY CRISTINA DE SOUSA SILVA",
+    "email": "emanuelly.silva12@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250455",
+    "nome": "EVELLYN ELIAS DE AZEVEDO",
+    "email": "evellyn.azevedo@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250309",
+    "nome": "GUSTAVO DE ARAUJO SANTOS",
+    "email": "gustavo.santos153@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250203",
+    "nome": "HEBERT DE SOUSA MOTA",
+    "email": "hebert.mota@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250492",
+    "nome": "HELOISA OLIVEIRA ALVES",
+    "email": "heloisa.alves2@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "260587",
+    "nome": "HINATA RAYSSA ANDRADE SILVA",
+    "email": "hinata.silva@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250476",
+    "nome": "JOÃO PAULO DE JESUS LIMA",
+    "email": "joao.lima68@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250084",
+    "nome": "JUAN SEVERINO DOS SANTOS",
+    "email": "juan.santos14@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250020",
+    "nome": "KAROLINA TAINÁ LACERDA PEIXOTO",
+    "email": "karolina.peixoto@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250097",
+    "nome": "KATARINA TELES COUTINHO",
+    "email": "katarina.coutinho@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250036",
+    "nome": "KETLIN SIMONE VILLCA TITIRICO",
+    "email": "ketlin.titirico@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250565",
+    "nome": "LAURA STEFANY BRITO DOS SANTOS",
+    "email": "laura.santos36@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250001",
+    "nome": "LAVINIA SANTOS FOGASSA",
+    "email": "lavinia.fogassa@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250091",
+    "nome": "LAYANNE SOUZA NASCIMENTO",
+    "email": "layanne.nascimento@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250239",
+    "nome": "MARIA LUIZA DE SOUZA SOARES",
+    "email": "maria.soares16@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250508",
+    "nome": "MARINA ELIZA RODRIGUES DOS SANTOS",
+    "email": "marina.santos7@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250445",
+    "nome": "MATHEUS FERREIRA DE QUEIROZ",
+    "email": "matheus.queiroz8@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250113",
+    "nome": "MIGUEL SANTANA DA SILVA",
+    "email": "miguel.silva85@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250116",
+    "nome": "MILENA TEIXEIRA DE SANTANA",
+    "email": "milena.santana4@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250068",
+    "nome": "PABLO EDUARDO RAMOS EVANGELISTA",
+    "email": "pablo.evangelista@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250075",
+    "nome": "PENELOPE DOS SANTOS VENEGAS",
+    "email": "penelope.venegas@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250109",
+    "nome": "RAFAEL LUZ SANTANA",
+    "email": "rafael.santana01@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250532",
+    "nome": "REBECA NASCIMENTO TEIXEIRA",
+    "email": "rebeca.teixeira01@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250337",
+    "nome": "REYNALDO LEONARDO ARCAYA TANCARA",
+    "email": "reynaldo.tancara@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250023",
+    "nome": "RHUAN SOUZA LOPES",
+    "email": "rhuan.lopes@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "260478",
+    "nome": "RICARDO ANTONIO FERREIRA BARROZO",
+    "email": "ricardo.barrozo@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250469",
+    "nome": "SARAH BEATRIZ SANTOS LEITE",
+    "email": "sarah.leite01@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250215",
+    "nome": "SAYMON SOUSA DE ALENCAR",
+    "email": "saymon.alencar@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250159",
+    "nome": "SOPHIA VITORIA OLIVEIRA DOS SANTOS",
+    "email": "sophia.santos18@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250499",
+    "nome": "STELLA MARIA BATISTA NASCIMENTO",
+    "email": "stella.nascimento01@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250456",
+    "nome": "VICTOR PEDRO DOS ANJOS",
+    "email": "victor.anjos3@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250120",
+    "nome": "YASMIM MARTINS RODRIGUES",
+    "email": "yasmim.rodrigues01@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250015",
+    "nome": "YURI CHRYSTOPHER PAZINATTO MARQUES",
+    "email": "yuri.marques01@aluno.cps.sp.gov.br",
+    "turma": "2º QUI"
+  },
+  {
+    "rm": "250449",
+    "nome": "ALESSANDRO TITO DA SILVA JUNIOR",
+    "email": "alessandro.silva12@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250293",
+    "nome": "ANA JULIA NASCIMENTO DE OLIVEIRA",
+    "email": "ana.oliveira139@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250040",
+    "nome": "BEATRIZ SILVA MERCES",
+    "email": "beatriz.merces@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250177",
+    "nome": "CHRYSTIAN DE LINA ROSARIO",
+    "email": "chrystian.rosario@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250446",
+    "nome": "EMILY SANTOS BEZERRA",
+    "email": "emily.bezerra@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250032",
+    "nome": "GEOVANAH CICERA GOMES BARROS",
+    "email": "geovanah.barros@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250056",
+    "nome": "GEOVANNA GONÇALVES RODRIGUES",
+    "email": "geovanna.rodrigues2@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250472",
+    "nome": "GIOVANNA MARQUES DE SOUZA MENDES",
+    "email": "giovanna.mendes01@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250080",
+    "nome": "GUSTAVO FREITAS DE AQUINO",
+    "email": "gustavo.aquino2@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250184",
+    "nome": "HEMILLY KRISTHINE DA SILVA",
+    "email": "hemilly.silva2@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250387",
+    "nome": "ISABELLA FARIAS DE CARVALHO",
+    "email": "isabella.carvalho4@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250249",
+    "nome": "ISAQUE ALBINO DA SILVA",
+    "email": "isaque.silva7@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250074",
+    "nome": "JOAQUIM PEREIRA NUNES",
+    "email": "joaquim.nunes01@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250030",
+    "nome": "JULIA APARECIDA SIMÃO DA SILVA",
+    "email": "julia.silva123@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250210",
+    "nome": "JULIA BRAZ DE MENEZES",
+    "email": "julia.menezes2@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250330",
+    "nome": "KAMILLY VITÓRIA LIMA SANTOS",
+    "email": "kamilly.santos7@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250108",
+    "nome": "KAUAN LEITE SILVA DE SOUZA",
+    "email": "kauan.souza16@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250179",
+    "nome": "LARA ALVES EVANGELISTA ANTONIO",
+    "email": "lara.antonio@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250052",
+    "nome": "LUCAS JOSE MOREIRA DOS SANTOS",
+    "email": "lucas.santos153@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250221",
+    "nome": "MARIA EDUARDA FERREIRA DE LIMA AZEVEDO",
+    "email": "maria.azevedo6@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250457",
+    "nome": "MARIA LUIZA DA SILVA APOLINARIO",
+    "email": "maria.apolinario01@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250506",
+    "nome": "MARIANA DE SOUZA BRITO",
+    "email": "mariana.brito4@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250100",
+    "nome": "MICAELLY ALVES SILVA",
+    "email": "micaelly.silva@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250094",
+    "nome": "MILENA SILVA MAGDALENA",
+    "email": "milena.magdalena@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250566",
+    "nome": "NATHALIA ASSUNCAO CARVAJAL",
+    "email": "nathalia.carvajal@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250438",
+    "nome": "NICOLY CAROLINE ALVES",
+    "email": "nicoly.alves4@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250126",
+    "nome": "RAFAELA BARBOSA LIMA",
+    "email": "rafaela.lima6@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250168",
+    "nome": "REBECAH LINDAURA VALADARES DOS SANTOS DE OLIVEIRA",
+    "email": "rebecah.oliveira@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250432",
+    "nome": "RENATA RODRIGUES SANTIAGO",
+    "email": "renata.santiago@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250207",
+    "nome": "RYANNA SOARES ALCAIDE BACELAR",
+    "email": "ryanna.bacelar@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250003",
+    "nome": "SAMUEL ALVES OLIVEIRA",
+    "email": "samuel.oliveira26@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250088",
+    "nome": "STEFANY ARAUJO MARTINS",
+    "email": "stefany.martins@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250194",
+    "nome": "THAIANE DOS REIS DIAS",
+    "email": "thaiane.dias@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250008",
+    "nome": "THAINA PAULINO GOMES",
+    "email": "thaina.gomes01@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250204",
+    "nome": "THIFFANY KIHARA DE SOUZA",
+    "email": "thiffany.souza@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250235",
+    "nome": "VANESSA YASMIN OLIVEIRA GOMES",
+    "email": "vanessa.gomes4@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250060",
+    "nome": "VITOR CARDOSO DA SILVA",
+    "email": "vitor.silva88@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250288",
+    "nome": "VITÓRIA APARECIDA DE JESUS SILVA",
+    "email": "vitoria.silva83@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "250451",
+    "nome": "ZAMBIA FERREIRA DA SILVA",
+    "email": "zambia.silva@aluno.cps.sp.gov.br",
+    "turma": "2º RH"
+  },
+  {
+    "rm": "240009",
+    "nome": "AMANDA MOREIRA DE JESUS",
+    "email": "amanda.jesus9@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240197",
+    "nome": "ANA BEATRIZ MONTEIRO DE OLIVEIRA",
+    "email": "ana.oliveira176@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240234",
+    "nome": "ANA JULIA FONSECA CESAR",
+    "email": "ana.cesar2@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240165",
+    "nome": "ANA LUIZA OLIVEIRA MORETTON",
+    "email": "ana.moretton@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240159",
+    "nome": "BIANKA RAFAELA DOS SANTOS SILVA",
+    "email": "bianka.silva2@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240186",
+    "nome": "CIBELLE AGNES MACHADO MACEDO",
+    "email": "cibelle.macedo@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240003",
+    "nome": "CRISTIANO SILVA DE FRANÇA JUNIOR",
+    "email": "cristiano.franca01@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240116",
+    "nome": "ELOA AQUINO ANDRADE",
+    "email": "eloa.andrade@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240013",
+    "nome": "ENZZO FERIA MARQUES FERNANDES",
+    "email": "enzzo.fernandes@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240092",
+    "nome": "FELIPE DE SOUZA CARDOSO",
+    "email": "felipe.cardoso6@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240157",
+    "nome": "GUSTAVO DOS SANTOS GARBAN",
+    "email": "gustavo.garban@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240427",
+    "nome": "HIGOR LUIZ SILVESTRE MENDES",
+    "email": "higor.mendes@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240260",
+    "nome": "ICARO PRATES LUZ",
+    "email": "icaro.luz@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240153",
+    "nome": "ISABELLA DE LIMA LUCIO",
+    "email": "isabella.lucio@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240073",
+    "nome": "ISABELLA ROCHA DOS SANTOS",
+    "email": "isabella.santos36@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240015",
+    "nome": "ISABELLA SANTOS RAMOS DE OLIVEIRA",
+    "email": "isabella.oliveira24@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240475",
+    "nome": "JHUAN SANCHES BRAGA SILVA",
+    "email": "jhuan.silva2@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240140",
+    "nome": "JOÃO VITOR MACHADO COLOMBO RIBEIRO",
+    "email": "joao.ribeiro34@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240321",
+    "nome": "JULIANA LIMA NASCIMENTO",
+    "email": "juliana.nascimento5@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240081",
+    "nome": "KAMILLY NERIS DE OLIVEIRA",
+    "email": "kamilly.oliveira3@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240535",
+    "nome": "KAUAN PEREIRA BRITO DA SILVA",
+    "email": "kauan.silva42@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240025",
+    "nome": "KEVIN ANDY MARTINEZ VALDEZ",
+    "email": "kevin.valdez@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240287",
+    "nome": "LARA BATISTA OLIVEIRA",
+    "email": "lara.oliveira16@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240022",
+    "nome": "LETICIA PEREIRA SANTOS",
+    "email": "leticia.santos62@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240221",
+    "nome": "LINCOLN YURI SANTOS KIKUCHI",
+    "email": "lincoln.kikuchi@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240087",
+    "nome": "MARCELA TELES DOS SANTOS",
+    "email": "marcela.santos10@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240274",
+    "nome": "MARCELO EUGÊNIO DOS SANTOS MARTINS JUNIOR",
+    "email": "marcelo.martins6@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240108",
+    "nome": "MARIA EDUARDA DA SILVA XAVIER",
+    "email": "maria.xavier7@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240158",
+    "nome": "MARINA DOS SANTOS NASCIMENTO",
+    "email": "marina.nascimento@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240428",
+    "nome": "MAYARA SILVESTRE OLIVEIRA",
+    "email": "mayara.oliveira9@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240122",
+    "nome": "MELISSA GABRIELY ALVES DA SILVA RAIMUNDO",
+    "email": "melissa.raimundo@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240413",
+    "nome": "MONICA SALETE CASTRO CASSEMIRO",
+    "email": "monica.cassemiro@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240402",
+    "nome": "NICOLLY JACOB VITALINO",
+    "email": "nicolly.vitalino@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240100",
+    "nome": "PAMELA PEREIRA GOMES",
+    "email": "pamela.gomes@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240279",
+    "nome": "POLLYANNA FLORIANO CARVALHO",
+    "email": "pollyanna.carvalho@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240255",
+    "nome": "RYAN OLIVEIRA DA SILVA ANDRADE",
+    "email": "ryan.andrade2@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240076",
+    "nome": "SAMUEL GONCALVES DA SILVA",
+    "email": "samuel.silva2@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240421",
+    "nome": "SOPHIA TELES DE SOUZA",
+    "email": "sophia.souza5@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240083",
+    "nome": "VICTOR MIKAEL DA SILVA RIBEIRO",
+    "email": "victor.ribeiro8@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240298",
+    "nome": "WIVIO SANTOS RAMOS",
+    "email": "wivio.ramos@aluno.cps.sp.gov.br",
+    "turma": "3º ADM"
+  },
+  {
+    "rm": "240485",
+    "nome": "AGATHA LIMA CAMPOS",
+    "email": "agatha.campos@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240220",
+    "nome": "ALEXANDRE JUNIOR VIEIRA DA SILVA",
+    "email": "alexandre.silva42@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240406",
+    "nome": "ALICE VITÓRIA DA SILVA FERRANTE NUNES",
+    "email": "alice.nunes@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240232",
+    "nome": "DANIEL MOREIRA COSTA",
+    "email": "daniel.costa15@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240292",
+    "nome": "DANIEL VITOR DA SILVA SERVINI",
+    "email": "daniel.servini@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240223",
+    "nome": "EMANUEL ALMEIDA DE JESUS",
+    "email": "emanuel.jesus4@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240210",
+    "nome": "ESTHER DE JESUS SIQUEIRA",
+    "email": "esther.siqueira@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240121",
+    "nome": "GABRIEL GUSTAVO BATISTA DE OLIVEIRA SANTOS",
+    "email": "gabriel.santos241@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240420",
+    "nome": "GEOVANNA DA SILVA PEREIRA LINO",
+    "email": "geovanna.lino@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240462",
+    "nome": "GUILHERME ENRIQUE LIMA DA SILVA",
+    "email": "guilherme.silva254@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240440",
+    "nome": "GUSTAVO DE SOUZA SERAFIM",
+    "email": "gustavo.serafim01@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240035",
+    "nome": "GUSTAVO SANTOS MELLO",
+    "email": "gustavo.mello@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240109",
+    "nome": "GUSTAVO SOUZA CARDOSO",
+    "email": "gustavo.cardoso13@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240135",
+    "nome": "IGOR AGUIAR FERREIRA",
+    "email": "igor.ferreira11@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240273",
+    "nome": "ISABELLA GOMES CUTRIM",
+    "email": "isabella.cutrim@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240007",
+    "nome": "JOÃO PEDRO MATIAS DA SILVA",
+    "email": "joao.silva444@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240124",
+    "nome": "JULIA RODRIGUES DE JESUS",
+    "email": "julia.jesus7@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240131",
+    "nome": "KAUÃ RODRIGUES OLIVEIRA",
+    "email": "kaua.oliveira15@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240060",
+    "nome": "LEONARDO ALVES SILVA",
+    "email": "leonardo.silva118@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240019",
+    "nome": "LEONARDO BRAGA PINTO",
+    "email": "leonardo.braga4@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240010",
+    "nome": "LETICIA DE OLIVEIRA RODRIGUES DA SILVA",
+    "email": "leticia.silva101@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240431",
+    "nome": "MATEUS SOUSA RIBEIRO",
+    "email": "mateus.ribeiro5@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240195",
+    "nome": "MAYKON OLIVEIRA ALMEIDA",
+    "email": "maykon.almeida01@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240437",
+    "nome": "MIGUEL LAURENTINO TORQUATO BRAZ",
+    "email": "miguel.braz@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240334",
+    "nome": "NICOLAS DE CAMPOS ANNIBAL",
+    "email": "nicolas.annibal@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240085",
+    "nome": "PEDRO HENRIQUE DE OLIVEIRA SANTOS",
+    "email": "pedro.santos168@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240327",
+    "nome": "PEDRO HENRIQUE LEITE PEDREIRA",
+    "email": "pedro.pedreira@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240465",
+    "nome": "PEDRO JOSÉ PAULINO SIQUEIRA",
+    "email": "pedro.siqueira7@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240231",
+    "nome": "RAPHAEL REINALDO OLIVEIRA SILVA",
+    "email": "raphael.silva19@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240331",
+    "nome": "RAYNER YAGO DE SOUSA",
+    "email": "rayner.sousa@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240194",
+    "nome": "RHAFAELLA OLIVEIRA CONCEIÇÃO",
+    "email": "rhafaella.conceicao@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240523",
+    "nome": "RODOLFO FARIA DA SILVA JUNIOR",
+    "email": "rodolfo.silva9@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240401",
+    "nome": "SABRINA ESHILLEY ALVES DE LIMA",
+    "email": "sabrina.lima4@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240505",
+    "nome": "SOPHIA FERREIRA BARCELOS",
+    "email": "sophia.barcelos@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240080",
+    "nome": "VICTORIA PEIXOTO DE OLIVEIRA",
+    "email": "victoria.oliveira10@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240033",
+    "nome": "VINICIUS HENRIQUE SILVA MARTINS DE OLIVEIRA",
+    "email": "vinicius.oliveira60@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "240538",
+    "nome": "VINÍCIUS MENEZES OLIVEIRA",
+    "email": "vinicius.oliveira59@aluno.cps.sp.gov.br",
+    "turma": "3º DS"
+  },
+  {
+    "rm": "251215",
+    "nome": "ANA JÚLIA MARTORANO",
+    "email": "ana.martorano@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240248",
+    "nome": "ANA LUIZA SILVA MOREIRA",
+    "email": "ana.moreira15@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240052",
+    "nome": "ANDRE MARCOS BARBOSA DA SILVA",
+    "email": "andre.silva60@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240112",
+    "nome": "CAIO HENRIQUE MARINHO VIEIRA",
+    "email": "caio.vieira5@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240250",
+    "nome": "CORSATY SOUZA",
+    "email": "corsaty.souza@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "250526",
+    "nome": "DANIEL DA SILVA DIAS",
+    "email": "daniel.dias6@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240414",
+    "nome": "DANIEL OLIVEIRA VALENÇA DA SILVA",
+    "email": "daniel.silva106@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240036",
+    "nome": "DANIEL SILVA MARQUES",
+    "email": "daniel.marques3@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "260580",
+    "nome": "DAVI DA SILVA ROCHA",
+    "email": "davi.rocha3@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240119",
+    "nome": "DENYS ANTONY DE SOUZA FIGUEIREDO",
+    "email": "denys.figueiredo@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240206",
+    "nome": "DEREK DE SOUSA MOTA",
+    "email": "derek.mota@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240189",
+    "nome": "ELISA FERNANDES SANTOS",
+    "email": "elisa.santos2@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240200",
+    "nome": "ESTHER DOS SANTOS BAESTERO",
+    "email": "esther.baestero@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240249",
+    "nome": "GABRIEL ALVES LIMA",
+    "email": "gabriel.lima72@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240128",
+    "nome": "GLAYDSON DA SILVA PEREIRA",
+    "email": "glaydson.pereira@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240179",
+    "nome": "GUILHERME DE ASSIS REBOUÇAS MASCARENHAS",
+    "email": "guilherme.mascarenhas@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240214",
+    "nome": "LEONARDO SEVERO DA SILVA",
+    "email": "leonardo.silva117@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240405",
+    "nome": "LETICIA UCHOA PEREIRA",
+    "email": "leticia.pereira13@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240242",
+    "nome": "LEVI VIKTOR TEODORO DE ANDRADE",
+    "email": "levi.andrade01@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240499",
+    "nome": "LUCAS BEZERRA DA SILVA",
+    "email": "lucas.silva303@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240047",
+    "nome": "MARCOS FERNANDO DE SOUZA",
+    "email": "marcos.souza21@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240219",
+    "nome": "MARIANA RAMOS BERNARDES",
+    "email": "mariana.bernardes01@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240169",
+    "nome": "MAYARA FLORENCIO DA SILVA",
+    "email": "mayara.silva24@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240246",
+    "nome": "MIGUEL SILVA DUARTE",
+    "email": "miguel.duarte01@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240098",
+    "nome": "MIRELA SANTOS DE AMARANTE",
+    "email": "mirela.amarante@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240453",
+    "nome": "MURILLO FERREIRA DE LIMA",
+    "email": "murillo.lima2@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "261142",
+    "nome": "NICOLLAS DA SILVA OLIVEIRA",
+    "email": "nicollas.oliveira5@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240455",
+    "nome": "NICOLLAS HENRIQUE FERREIRA",
+    "email": "nicollas.ferreira01@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240302",
+    "nome": "NICOLLAS TRINDADE DE ANDRADE",
+    "email": "nicollas.andrade@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240077",
+    "nome": "PEDRO HENRIQUE MELO DA CONCEIÇÃO",
+    "email": "pedro.conceicao2@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240091",
+    "nome": "RAFAELLA ALMEIDA LAMEU",
+    "email": "rafaella.lameu@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240508",
+    "nome": "RAYSSA CRISTINA DE ANDRADE OLIVEIRA",
+    "email": "rayssa.oliveira6@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240055",
+    "nome": "ROBERTO LEÃO MORAES JUNIOR",
+    "email": "roberto.moraes@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240233",
+    "nome": "RODRIGO VALENTIM DE ARAUJO",
+    "email": "rodrigo.araujo2@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "250070",
+    "nome": "SOFIA ALVES AFONSO BUSCAIOLO",
+    "email": "sofia.buscaiolo@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240476",
+    "nome": "SOFIA SANTOS DE JESUS SOUZA",
+    "email": "sofia.souza8@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240441",
+    "nome": "STEFANNY GONÇALVES DE JESUS FERNANDES",
+    "email": "stefanny.fernandes@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240002",
+    "nome": "THIFANY SOARES SILVA",
+    "email": "thifany.silva01@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240090",
+    "nome": "VINICIUS MARTINS DE PAIVA",
+    "email": "vinicius.paiva4@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240056",
+    "nome": "YAGO SOARES BARBOSA",
+    "email": "yago.barbosa01@aluno.cps.sp.gov.br",
+    "turma": "3º INFO"
+  },
+  {
+    "rm": "240183",
+    "nome": "AGATHA RILARI MAGALHAES PEREIRA",
+    "email": "agatha.pereira@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "250554",
+    "nome": "ALICE DE JESUS GOMES",
+    "email": "alice.gomes01@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240042",
+    "nome": "ANA BEATRIZ VIEIRA BRAYNER DA SILVA",
+    "email": "ana.silva336@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240461",
+    "nome": "ANA KAROLINA FERREIRA DA SILVA",
+    "email": "ana.silva337@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240037",
+    "nome": "ANA LUISA ALVES DE LIMA",
+    "email": "ana.lima54@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240170",
+    "nome": "ANGELINA RAMOS SOLER",
+    "email": "angelina.soler@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240044",
+    "nome": "BRENDA ALICIA SILVA GARCIA",
+    "email": "brenda.garcia@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240029",
+    "nome": "EMILLY CRISTINA VASCONCELOS DE OLIVEIRA",
+    "email": "emilly.oliveira17@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240412",
+    "nome": "EMILLY MELO DA SILVA",
+    "email": "emilly.silva12@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240078",
+    "nome": "FERNANDA REIS SANTOS",
+    "email": "fernanda.santos36@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240315",
+    "nome": "GABRIELA CRISTINA PASSOS CRUZ",
+    "email": "gabriela.cruz2@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240276",
+    "nome": "GABRIELLE CHRISTINE BONIFACIO DA SILVA",
+    "email": "gabrielle.silva16@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240272",
+    "nome": "HELEN DOS SANTOS SILVA",
+    "email": "helen.silva2@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240106",
+    "nome": "HEMILLY PASSOS DA SILVA",
+    "email": "hemilly.silva3@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240040",
+    "nome": "ILLANA ALVES SILVA SANTOS",
+    "email": "illana.santos@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240145",
+    "nome": "ISABELE BEZERRA LIMA",
+    "email": "isabele.lima2@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240132",
+    "nome": "ISABELLA COSMAN DE OLIVEIRA SILVA",
+    "email": "isabella.silva48@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240289",
+    "nome": "ISABELLA LIMA VENTUROLI LEAL",
+    "email": "isabella.leal01@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240416",
+    "nome": "ISABELLI DO NASCIMENTO MARTINS CORREIA",
+    "email": "isabelli.correia@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240064",
+    "nome": "ISABELLY PEREIRA GIMENEZ VALENTE",
+    "email": "isabelly.valente@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240114",
+    "nome": "JOÃO VICTOR DE FARIAS BATISTA",
+    "email": "joao.batista12@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240093",
+    "nome": "KETHLYN RAMOS DE OLIVEIRA CARVALHO",
+    "email": "kethlyn.carvalho@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240063",
+    "nome": "LETICIA BEZERRA DA SILVA",
+    "email": "leticia.silva94@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240062",
+    "nome": "MARIA ISABELLA FELICIANO DA SILVA",
+    "email": "maria.silva388@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240129",
+    "nome": "MARIA LUIZA ALEIXO LEMOS",
+    "email": "maria.lemos2@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240125",
+    "nome": "MARIA LUIZA SILVA SANTANA",
+    "email": "maria.santana15@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240212",
+    "nome": "MAYARA ANSANELLI GOMES",
+    "email": "mayara.gomes@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240316",
+    "nome": "MELYSSA RODRIGUES LIMA",
+    "email": "melyssa.lima@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240023",
+    "nome": "NYCOLLE CRISTINE ROMANO RODRIGUES DOS SANTOS",
+    "email": "nycolle.santos@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240532",
+    "nome": "ODETE LARA ROCHA SANTOS",
+    "email": "odete.santos@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240423",
+    "nome": "SARA SANTOS DE CARVALHO",
+    "email": "sara.carvalho3@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240160",
+    "nome": "SHAYENNE VITORIA NOGUEIRA PINHEIRO",
+    "email": "shayenne.pinheiro@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240282",
+    "nome": "TALITA DO NASCIMENTO SOUZA",
+    "email": "talita.souza2@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240032",
+    "nome": "WESLEY LOPES SANTOS LEITE",
+    "email": "wesley.leite01@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240012",
+    "nome": "WILLDY DA SILVA RAMOS",
+    "email": "willdy.ramos@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240146",
+    "nome": "YASMIN DE SOUZA CAVALCANTI",
+    "email": "yasmin.cavalcanti01@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240237",
+    "nome": "YASMIN MATOS SILVA",
+    "email": "yasmin.silva68@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "230132",
+    "nome": "YASMIN RIBEIRO DA SILVA",
+    "email": "yasmin.silva69@aluno.cps.sp.gov.br",
+    "turma": "3º NUTRI"
+  },
+  {
+    "rm": "240510",
+    "nome": "ALICE MARTINELLI SERRI",
+    "email": "alice.serri@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240317",
+    "nome": "ANA BEATRIZ MODESTO SILVA",
+    "email": "ana.silva312@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240151",
+    "nome": "ÂNGELA DE FATIMA RICARDO BALDUCI",
+    "email": "angela.balduci@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240185",
+    "nome": "ARTUR QUEIROZ CRUZ",
+    "email": "artur.cruz@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240424",
+    "nome": "DANIEL BRANDÃO DA CONCEIÇÃO",
+    "email": "daniel.conceicao@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240065",
+    "nome": "ELLEN VITORIA DE MELO LEANDRO",
+    "email": "ellen.leandro@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240027",
+    "nome": "ELOIZA GRANDE DO AMARAL",
+    "email": "eloiza.amaral@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "231344",
+    "nome": "EMANUELLY SENA DE OLIVEIRA",
+    "email": "emanuelly.oliveira01@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240285",
+    "nome": "EMILLY MICIANO DE ALMEIDA",
+    "email": "emilly.almeida01@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240127",
+    "nome": "EVELYN ARAUJO RIBEIRO",
+    "email": "evelyn.ribeiro01@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240068",
+    "nome": "EVELYN FERREIRA DA SILVA",
+    "email": "evelyn.silva10@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240155",
+    "nome": "EZEQUIEL RIBEIRO GONÇALVES PINTO",
+    "email": "ezequiel.goncalves@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240058",
+    "nome": "FELIPE ALEXANDRE SIQUEIRA RODRIGUES",
+    "email": "felipe.rodrigues20@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240086",
+    "nome": "FERNANDA CANDIDO CENTO",
+    "email": "fernanda.cento@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240021",
+    "nome": "GABRIELA FARIAS ALVES",
+    "email": "gabriela.alves5@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240045",
+    "nome": "GIOVANNA DE FRANÇA GAUDÊNCIO",
+    "email": "giovanna.gaudencio@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240103",
+    "nome": "GIOVANNE LIMA ROZANTE",
+    "email": "giovanne.rozante@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240051",
+    "nome": "ISABELA SILVA SANTOS",
+    "email": "isabela.santos17@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240095",
+    "nome": "KARINE MOREIRA DA SILVA",
+    "email": "karine.silva7@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240323",
+    "nome": "KETHELYN VITORIA FELIX RESAGUE",
+    "email": "kethelyn.resague@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240147",
+    "nome": "LARISSA NUNES DE SANTANA SENA",
+    "email": "larissa.sena@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240275",
+    "nome": "LEANDRO CORREIA DA SILVA FILHO",
+    "email": "leandro.silva46@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240222",
+    "nome": "LIVIA SANTOS DE JESUS",
+    "email": "livia.jesus2@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240016",
+    "nome": "MAYRA CARACHO DA COSTA KINEIPPE",
+    "email": "mayra.kineippe@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240534",
+    "nome": "MELLISSAH RAMOS FELIX",
+    "email": "mellissah.felix@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240446",
+    "nome": "MIGUEL OTAVIO GOMES DOS SANTOS",
+    "email": "miguel.santos55@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240005",
+    "nome": "MÓISES MATEUS DE MORAES MACHADO",
+    "email": "moises.machado@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240204",
+    "nome": "MYLLENE SILVA GONZAGA",
+    "email": "myllene.gonzaga@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240490",
+    "nome": "PEDRO HENRIQUE MOREIRA NAVARRO",
+    "email": "pedro.navarro01@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240008",
+    "nome": "POLIANA ANGÉLICA DE SOUZA",
+    "email": "poliana.souza01@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240096",
+    "nome": "RAUL HENRIQUE LIMA PESSOA",
+    "email": "raul.pessoa@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240117",
+    "nome": "REGINA KARLA FAGUNDES SILVA CEO",
+    "email": "regina.ceo@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240318",
+    "nome": "SOFIA CADIZ MELO",
+    "email": "sofia.melo01@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240166",
+    "nome": "SOFIA DOS SANTOS MAURICIO",
+    "email": "sofia.mauricio@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240409",
+    "nome": "SOPHIA FERNANDES RODRIGUES",
+    "email": "sophia.rodrigues8@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240283",
+    "nome": "VICTOR ALVES DE SOUSA FERNANDES",
+    "email": "victor.fernandes@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240454",
+    "nome": "VITORIA EVELYN ARAUJO DA SILVA",
+    "email": "vitoria.silva90@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240247",
+    "nome": "YASMIN BONFIM CESAR",
+    "email": "yasmin.cesar@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240434",
+    "nome": "YASMIN PEREIRA DE SOUZA",
+    "email": "yasmin.souza12@aluno.cps.sp.gov.br",
+    "turma": "3º QUI"
+  },
+  {
+    "rm": "240054",
+    "nome": "ANA BEATRIZ ALMEIDA PEREIRA",
+    "email": "ana.pereira59@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240404",
+    "nome": "ANA JÚLIA DA SILVA MORARIA PEREIRA",
+    "email": "ana.pereira60@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240217",
+    "nome": "BEATRIZ PEREIRA GASPERINI",
+    "email": "beatriz.gasperini@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240067",
+    "nome": "BRUNO MENDES SILVA DE OLIVEIRA",
+    "email": "bruno.oliveira35@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240488",
+    "nome": "EVELLYN RAKELLY FERREIRA DA CRUZ",
+    "email": "evellyn.cruz@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "251211",
+    "nome": "FERNANDA JOLIE STURKEN REIS",
+    "email": "fernanda.reis2@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "250527",
+    "nome": "FERNANDO DOS SANTOS JUNIOR",
+    "email": "fernando.santos27@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240448",
+    "nome": "GABRYELA TAVARES DA SILVA",
+    "email": "gabryela.silva@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240361",
+    "nome": "GLAUCIA GONSALES BULHOES",
+    "email": "glaucia.bulhoes@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240024",
+    "nome": "GUILHERME DE JESUS FORTUNATO",
+    "email": "guilherme.fortunato@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240168",
+    "nome": "HELENA MIKELY VICENTE ALVES",
+    "email": "helena.alves@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240410",
+    "nome": "ISABELLE PYETRA PEREIRA DA CUNHA",
+    "email": "isabelle.cunha@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240411",
+    "nome": "JENNIFER DELMONDES DO NASCIMENTO",
+    "email": "jennifer.nascimento@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "230598",
+    "nome": "JOANNY ALANYS SOARES DOS SANTOS",
+    "email": "joanny.santos@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240110",
+    "nome": "JULIA BEATRIZ DA SILVA BRAZ",
+    "email": "julia.braz01@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240137",
+    "nome": "JULIA HERCULANO DE TOLEDO",
+    "email": "julia.toledo@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240118",
+    "nome": "KAUÃ GABRIEL SILVA DA HORA",
+    "email": "kaua.hora@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240074",
+    "nome": "KETHELEN GABRIELA FERREIRA DOS SANTOS",
+    "email": "kethelen.santos@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240190",
+    "nome": "LAURA RODRIGUES ALVES",
+    "email": "laura.alves3@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240039",
+    "nome": "LAVINIA OLIVEIRA SALES",
+    "email": "lavinia.sales@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240172",
+    "nome": "LUISA HELENA CORREIA DA SILVA",
+    "email": "luisa.silva@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240120",
+    "nome": "MAISA DELFINO DE JESUS",
+    "email": "maisa.jesus@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240252",
+    "nome": "MARIA EDUARDA NEVES VICENTE",
+    "email": "maria.vicente3@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240088",
+    "nome": "MARIA LUIZA ARAUJO SILVA",
+    "email": "maria.silva12@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "250534",
+    "nome": "MARIA VITÓRIA AMORIM VIEIRA TEIXEIRA DA SILVA",
+    "email": "maria.silva350@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240134",
+    "nome": "MARIANA LIRA ALVES",
+    "email": "mariana.alves@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240162",
+    "nome": "MAYARA JESUS DA SILVA",
+    "email": "mayara.silva4@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240312",
+    "nome": "MELISSA SOUSA LIMA",
+    "email": "melissa.lima4@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240526",
+    "nome": "NICOLLY MENDES FERREIRA",
+    "email": "nicolly.ferreira@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240070",
+    "nome": "PAULA CRISTINE REIS SANTOS",
+    "email": "paula.santos10@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240341",
+    "nome": "RAYANE RAQUEL RODRIGUES CASTRO",
+    "email": "rayane.castro01@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240175",
+    "nome": "SAULO LIMA DE ARAUJO",
+    "email": "saulo.araujo@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "241276",
+    "nome": "SOPHYA VITÓRIA ARAÚJO SILVA SANTOS",
+    "email": "sophya.santos01@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240084",
+    "nome": "THAINÁ GONÇALVES MARTA",
+    "email": "thaina.marta@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240230",
+    "nome": "VITÓRIA DA SILVA CAMPOS",
+    "email": "vitoria.campos@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240038",
+    "nome": "VIVIAN CANTANHEDE DE ARAUJO",
+    "email": "vivian.araujo@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240342",
+    "nome": "YASMIN GOMES",
+    "email": "yasmin.gomes01@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  },
+  {
+    "rm": "240034",
+    "nome": "YASMIN SANTOS DE OLIVEIRA",
+    "email": "yasmin.oliveira19@aluno.cps.sp.gov.br",
+    "turma": "3º RH"
+  }
+]

@@ -2,6 +2,7 @@ const express = require("express");
 const multer = require("multer");
 const sharp = require("sharp");
 const path = require("path");
+const fs = require("fs");
 const { createCanvas, DOMMatrix, DOMPoint, ImageData, Path2D } = require("@napi-rs/canvas");
 
 // PDF.js 5.x usa DOMMatrix durante o carregamento do módulo.
@@ -86,6 +87,22 @@ for (const group of GROUPS) {
   }
 }
 
+const DATA_DIR = path.join(__dirname, "data");
+const ALUNOS_FILE = path.join(DATA_DIR, "alunos.json");
+
+function carregarAlunos() {
+  if (!fs.existsSync(ALUNOS_FILE)) {
+    return [];
+  }
+
+  try {
+    return JSON.parse(fs.readFileSync(ALUNOS_FILE, "utf8"));
+  } catch (error) {
+    console.error("Erro ao carregar alunos.json:", error);
+    return [];
+  }
+}
+
 /*
   Ajustes principais do leitor.
 
@@ -105,7 +122,10 @@ for (const group of GROUPS) {
 const CONFIG = {
   MARK_THRESHOLD: 125,
   FILL_THRESHOLD: 0.34,
-  MAYBE_THRESHOLD: 0.22,
+  MAYBE_THRESHOLD: 0.18,
+  SEPARATION_THRESHOLD: 0.08,
+  QUADRANT_MIN_RATIO: 0.12,
+
   SAMPLE_RADIUS_BASE: 7.2,
   MARKER_THRESHOLD: 105
 };
@@ -233,8 +253,8 @@ function connectedComponentsInZone(gray, zone) {
 
   const dirs = [
     [-1, -1], [0, -1], [1, -1],
-    [-1, 0],           [1, 0],
-    [-1, 1],  [0, 1],  [1, 1]
+    [-1, 0], [1, 0],
+    [-1, 1], [0, 1], [1, 1]
   ];
 
   for (let ly = 0; ly < h; ly++) {
@@ -344,105 +364,178 @@ function chooseMarker(gray, zone, expectedNorm) {
 
 function findMarkers(gray) {
   /*
-    Zonas deliberadamente estreitas para não confundir texto/bordas
-    com os quadrados de registro.
+    As zonas são maiores porque o scanner pode deslocar
+    a folha alguns centímetros/pixels.
 
-    IMPORTANTE: alguns scanners podem cortar/remover um ou mais
-    marcadores. Por isso, se não encontrarmos todos, usamos a geometria
-    de referência somente quando o tamanho/aspecto da página é compatível.
-    Isso permite ler uma folha em branco ou uma página com marcador
-    parcialmente perdido sem derrubar o PDF inteiro.
+    Não usamos mais uma zona estreita baseada apenas
+    na posição original do PDF.
   */
+
   const zones = {
     tl: {
-      zone: { x0: 0.095, x1: 0.165, y0: 0.145, y1: 0.205 },
-      expected: { x: 119 / 893, y: 212 / 1263 }
+      zone: {
+        x0: 0.03,
+        x1: 0.20,
+        y0: 0.08,
+        y1: 0.21
+      },
+      expected: {
+        x: 119 / 893,
+        y: 212 / 1263
+      }
     },
+
     tr: {
-      zone: { x0: 0.865, x1: 0.935, y0: 0.145, y1: 0.205 },
-      expected: { x: 812 / 893, y: 214 / 1263 }
+      zone: {
+        x0: 0.80,
+        x1: 0.97,
+        y0: 0.08,
+        y1: 0.21
+      },
+      expected: {
+        x: 812 / 893,
+        y: 214 / 1263
+      }
     },
+
     bl: {
-      zone: { x0: 0.09, x1: 0.165, y0: 0.855, y1: 0.92 },
-      expected: { x: 114 / 893, y: 1118 / 1263 }
+      zone: {
+        x0: 0.03,
+        x1: 0.20,
+        y0: 0.87,
+        y1: 0.99
+      },
+      expected: {
+        x: 114 / 893,
+        y: 1118 / 1263
+      }
     },
+
     br: {
-      zone: { x0: 0.86, x1: 0.935, y0: 0.855, y1: 0.92 },
-      expected: { x: 807 / 893, y: 1120 / 1263 }
+      zone: {
+        x0: 0.80,
+        x1: 0.97,
+        y0: 0.87,
+        y1: 0.99
+      },
+      expected: {
+        x: 807 / 893,
+        y: 1120 / 1263
+      }
     }
   };
 
+  function chooseCornerMarker(gray, zone, expectedNorm) {
+    const comps = connectedComponentsInZone(gray, zone);
+
+    const expected = {
+      x: expectedNorm.x * gray.width,
+      y: expectedNorm.y * gray.height
+    };
+
+    const candidates = comps
+      .filter(c =>
+        c.count >= 180 &&
+        c.count <= 600 &&
+        c.bw >= 10 &&
+        c.bh >= 10 &&
+        c.bw <= gray.width * 0.04 &&
+        c.bh <= gray.height * 0.04 &&
+        c.fill >= 0.45 &&
+        c.bw / c.bh >= 0.65 &&
+        c.bw / c.bh <= 1.5
+      )
+      .map(c => {
+        const distance = dist(c, expected);
+
+        const squarePenalty =
+          Math.abs(1 - c.bw / c.bh) * 50;
+
+        const sizeBonus =
+          Math.min(c.count, 350) * 0.15;
+
+        return {
+          ...c,
+          score:
+            distance +
+            squarePenalty -
+            sizeBonus
+        };
+      })
+      .sort((a, b) => a.score - b.score);
+
+    if (!candidates.length) {
+      return null;
+    }
+
+    return {
+      x: candidates[0].x,
+      y: candidates[0].y
+    };
+  }
+
   const markers = {};
-  for (const [key, z] of Object.entries(zones)) {
-    markers[key] = chooseMarker(gray, z.zone, z.expected);
+
+  for (const [key, config] of Object.entries(zones)) {
+    markers[key] = chooseCornerMarker(
+      gray,
+      config.zone,
+      config.expected
+    );
   }
 
   const missing = Object.entries(markers)
-    .filter(([, v]) => !v)
-    .map(([k]) => k);
+    .filter(([, value]) => !value)
+    .map(([key]) => key);
 
-  if (missing.length === 0) {
-    return {
-      ...markers,
-      _mode: "detected",
-      _missing: []
-    };
-  }
-
-  // Fallback: se a página mantém o A4 inteiro, a geometria normalizada
-  // continua válida mesmo que algum quadrado tenha sido cortado pelo scan.
-  // Não usamos isso quando a proporção da página está muito diferente.
-  const aspect = gray.width / gray.height;
-  const expectedAspect = BASE.width / BASE.height;
-  const aspectError = Math.abs(aspect - expectedAspect) / expectedAspect;
-
-  if (aspectError <= 0.035) {
-    const fallback = {
-      tl: markers.tl || {
-        x: (BASE.markers.tl.x / BASE.width) * gray.width,
-        y: (BASE.markers.tl.y / BASE.height) * gray.height
-      },
-      tr: markers.tr || {
-        x: (BASE.markers.tr.x / BASE.width) * gray.width,
-        y: (BASE.markers.tr.y / BASE.height) * gray.height
-      },
-      bl: markers.bl || {
-        x: (BASE.markers.bl.x / BASE.width) * gray.width,
-        y: (BASE.markers.bl.y / BASE.height) * gray.height
-      },
-      br: markers.br || {
-        x: (BASE.markers.br.x / BASE.width) * gray.width,
-        y: (BASE.markers.br.y / BASE.height) * gray.height
-      },
-      _mode: "fallback",
-      _missing: missing
-    };
-
-    console.warn(
-      `[OMR] Marcadores ausentes (${missing.join(", ")}). ` +
-      `Usando geometria de referência para esta página.`
+  if (missing.length > 0) {
+    throw new Error(
+      `Não consegui localizar os marcadores: ${missing.join(", ")}. ` +
+      `Verifique se a folha inteira foi escaneada.`
     );
-
-    return fallback;
   }
 
-  throw new Error(
-    `Não consegui localizar os marcadores: ${missing.join(", ")}. ` +
-    `A página parece estar cortada ou fora do formato esperado.`
+  console.log(
+    "[OMR] Marcadores detectados:",
+    JSON.stringify(markers)
   );
+
+  return {
+    ...markers,
+    _mode: "detected",
+    _missing: []
+  };
 }
 
 function sampleFill(gray, center, radius) {
   /*
-    Amostramos o MIOLO da bolinha, não o contorno.
-    Isso evita considerar o círculo impresso como resposta marcada.
-  */
+   Analisa o miolo da bolinha.
+
+   Além da quantidade total de pixels escuros,
+   analisamos os quatro quadrantes.
+
+   Isso ajuda a diferenciar:
+
+   ● bolinha preenchida
+   X marca em X
+   • pontinho
+   / risco
+   preenchimento parcial
+ */
+
   const r = Math.max(3, radius);
   const inner = r * 0.80;
 
   let dark = 0;
   let total = 0;
   let sum = 0;
+
+  const quadrants = [
+    { dark: 0, total: 0 }, // superior esquerdo
+    { dark: 0, total: 0 }, // superior direito
+    { dark: 0, total: 0 }, // inferior esquerdo
+    { dark: 0, total: 0 }  // inferior direito
+  ];
 
   const minX = Math.floor(center.x - inner);
   const maxX = Math.ceil(center.x + inner);
@@ -451,20 +544,69 @@ function sampleFill(gray, center, radius) {
 
   for (let y = minY; y <= maxY; y++) {
     for (let x = minX; x <= maxX; x++) {
+
       const dx = x - center.x;
       const dy = y - center.y;
-      if (dx * dx + dy * dy > inner * inner) continue;
+
+      if (
+        dx * dx +
+        dy * dy >
+        inner * inner
+      ) {
+        continue;
+      }
 
       const val = getPixel(gray, x, y);
+
       total++;
       sum += val;
-      if (val < CONFIG.MARK_THRESHOLD) dark++;
+
+      const isDark =
+        val < CONFIG.MARK_THRESHOLD;
+
+      if (isDark) {
+        dark++;
+      }
+
+      let quadrant;
+
+      if (dx < 0 && dy < 0) {
+        quadrant = quadrants[0];
+      } else if (dx >= 0 && dy < 0) {
+        quadrant = quadrants[1];
+      } else if (dx < 0 && dy >= 0) {
+        quadrant = quadrants[2];
+      } else {
+        quadrant = quadrants[3];
+      }
+
+      quadrant.total++;
+
+      if (isDark) {
+        quadrant.dark++;
+      }
     }
   }
 
+  const quadrantRatios = quadrants.map(q =>
+    q.total
+      ? q.dark / q.total
+      : 0
+  );
+
   return {
-    ratio: total ? dark / total : 0,
-    avg: total ? sum / total : 255
+    ratio: total
+      ? dark / total
+      : 0,
+
+    avg: total
+      ? sum / total
+      : 255,
+
+    quadrantRatios,
+
+    quadrantMin:
+      Math.min(...quadrantRatios)
   };
 }
 
@@ -475,56 +617,172 @@ function estimateScale(markers) {
 }
 
 function interpretQuestion(samples) {
-  const strong = samples.filter(s => s.ratio >= CONFIG.FILL_THRESHOLD);
+  /*
+    MARCA FORTE
 
-  if (strong.length === 0) {
-    const ordered = [...samples].sort((a, b) => b.ratio - a.ratio);
-    const best = ordered[0];
+    Uma resposta só é aceita automaticamente quando:
+    - possui preenchimento suficiente;
+    - o preenchimento está distribuído pelo interior;
+    - não existe outra alternativa muito próxima.
 
-    // "maybe" serve para o diagnóstico, mas não vira resposta automaticamente.
-    return {
-      status: "blank",
-      answer: null,
-      marked: [],
-      confidence: Math.max(0, 1 - best.ratio / CONFIG.FILL_THRESHOLD),
-      maybe:
-        best.ratio >= CONFIG.MAYBE_THRESHOLD
-          ? best.alternative
-          : null
-    };
-  }
+    X, risco, pontinho ou preenchimento parcial
+    ficam como REVISAR.
+  */
 
+  const strong = samples.filter(s =>
+    s.ratio >= CONFIG.FILL_THRESHOLD &&
+    s.quadrantMin >= CONFIG.QUADRANT_MIN_RATIO
+  );
+
+  /*
+    DUAS OU MAIS MARCAÇÕES FORTES
+  */
   if (strong.length > 1) {
     return {
       status: "double",
       answer: null,
+
       marked: strong
         .sort((a, b) => b.ratio - a.ratio)
         .map(s => s.alternative),
-      confidence: Math.min(1, strong[1].ratio / CONFIG.FILL_THRESHOLD),
-      maybe: null
+
+      confidence: Math.min(
+        1,
+        strong[1].ratio /
+        CONFIG.FILL_THRESHOLD
+      ),
+
+      suggested: null
     };
   }
 
+  /*
+    NENHUMA MARCA FORTE
+  */
+  if (strong.length === 0) {
+    const ordered = [...samples]
+      .sort((a, b) => b.ratio - a.ratio);
+
+    const best = ordered[0];
+
+    /*
+      Acima do limite mínimo:
+      provavelmente existe algum tipo de marca,
+      mas não é confiável o suficiente.
+    */
+    if (
+      best &&
+      best.ratio >= CONFIG.MAYBE_THRESHOLD
+    ) {
+      return {
+        status: "review",
+        answer: null,
+        marked: [],
+
+        suggested: best.alternative,
+
+        confidence: clamp(
+          best.ratio /
+          CONFIG.FILL_THRESHOLD,
+          0,
+          1
+        )
+      };
+    }
+
+    /*
+      Realmente em branco.
+    */
+    return {
+      status: "blank",
+      answer: null,
+      marked: [],
+
+      suggested: null,
+
+      confidence: best
+        ? Math.max(
+          0,
+          1 -
+          best.ratio /
+          CONFIG.FILL_THRESHOLD
+        )
+        : 1
+    };
+  }
+
+  /*
+    EXATAMENTE UMA MARCA FORTE
+  */
   const chosen = strong[0];
+
   const others = samples
-    .filter(s => s.alternative !== chosen.alternative)
-    .sort((a, b) => b.ratio - a.ratio);
+    .filter(s =>
+      s.alternative !==
+      chosen.alternative
+    )
+    .sort((a, b) =>
+      b.ratio - a.ratio
+    );
 
-  const separation = chosen.ratio - (others[0]?.ratio || 0);
+  const secondBest =
+    others[0] || {
+      ratio: 0
+    };
 
+  const separation =
+    chosen.ratio -
+    secondBest.ratio;
+
+  /*
+    A bolinha está forte, mas existe outra
+    marca próxima demais.
+
+    Em vez de errar automaticamente,
+    mandamos para REVISAR.
+  */
+  if (
+    separation <
+    CONFIG.SEPARATION_THRESHOLD
+  ) {
+    return {
+      status: "review",
+      answer: null,
+      marked: [],
+
+      suggested:
+        chosen.alternative,
+
+      confidence: clamp(
+        0.5 +
+        separation * 2,
+        0,
+        1
+      )
+    };
+  }
+
+  /*
+    MARCAÇÃO CONFIÁVEL
+  */
   return {
     status: "marked",
     answer: chosen.alternative,
-    marked: [chosen.alternative],
+    marked: [
+      chosen.alternative
+    ],
+
+    suggested: null,
+
     confidence: clamp(
       0.55 +
-      (chosen.ratio - CONFIG.FILL_THRESHOLD) * 1.3 +
+      (chosen.ratio -
+        CONFIG.FILL_THRESHOLD) *
+      1.3 +
       separation * 0.9,
       0,
       1
-    ),
-    maybe: null
+    )
   };
 }
 
@@ -550,8 +808,18 @@ async function readOmrPage(buffer, pageNumber) {
         alternative: choice.alternative,
         x: Math.round(point.x),
         y: Math.round(point.y),
-        ratio: Number(sample.ratio.toFixed(4)),
-        avg: Number(sample.avg.toFixed(1))
+
+        ratio: Number(
+          sample.ratio.toFixed(4)
+        ),
+
+        avg: Number(
+          sample.avg.toFixed(1)
+        ),
+
+        quadrantMin: Number(
+          sample.quadrantMin.toFixed(4)
+        )
       };
     });
 
@@ -571,9 +839,21 @@ async function readOmrPage(buffer, pageNumber) {
     markers,
     results,
     summary: {
-      marked: results.filter(r => r.status === "marked").length,
-      blank: results.filter(r => r.status === "blank").length,
-      double: results.filter(r => r.status === "double").length
+      marked: results.filter(
+        r => r.status === "marked"
+      ).length,
+
+      blank: results.filter(
+        r => r.status === "blank"
+      ).length,
+
+      double: results.filter(
+        r => r.status === "double"
+      ).length,
+
+      review: results.filter(
+        r => r.status === "review"
+      ).length
     }
   };
 }
@@ -603,43 +883,98 @@ function gradePage(pageResult, answerKey) {
   let wrong = 0;
   let blank = 0;
   let invalid = 0;
+  let review = 0;
 
-  const detail = pageResult.results.map((r, idx) => {
-    const expected = answerKey[idx];
+  const detail = pageResult.results.map(
+    (r, idx) => {
+      const expected =
+        answerKey[idx];
 
-    if (r.status === "blank") {
-      blank++;
-      return { question: r.question, expected, result: "blank", correct: false };
-    }
+      /*
+        REVISAR
 
-    if (r.status === "double") {
-      invalid++;
+        Não conta como erro.
+        Também não conta como acerto.
+        Fica pendente para conferência humana.
+      */
+      if (r.status === "review") {
+        review++;
+
+        return {
+          question: r.question,
+          expected,
+          result: "review",
+          suggested: r.suggested || null,
+          correct: null
+        };
+      }
+
+      /*
+        EM BRANCO
+      */
+      if (r.status === "blank") {
+        blank++;
+
+        return {
+          question: r.question,
+          expected,
+          result: "blank",
+          correct: false
+        };
+      }
+
+      /*
+        DUPLA
+      */
+      if (r.status === "double") {
+        invalid++;
+
+        return {
+          question: r.question,
+          expected,
+          result:
+            r.marked.join("+"),
+          correct: false
+        };
+      }
+
+      /*
+        MARCAÇÃO NORMAL
+      */
+      const ok =
+        r.answer === expected;
+
+      if (ok) {
+        correct++;
+      } else {
+        wrong++;
+      }
+
       return {
         question: r.question,
         expected,
-        result: r.marked.join("+"),
-        correct: false
+        result: r.answer,
+        correct: ok
       };
     }
-
-    const ok = r.answer === expected;
-    if (ok) correct++;
-    else wrong++;
-
-    return {
-      question: r.question,
-      expected,
-      result: r.answer,
-      correct: ok
-    };
-  });
+  );
 
   return {
     correct,
     wrong,
     blank,
     invalid,
-    score: Number(((correct / 35) * 10).toFixed(2)),
+    review,
+
+    /*
+      A nota é provisória enquanto houver
+      questões aguardando revisão.
+    */
+    score: Number(
+      ((correct / 35) * 10)
+        .toFixed(2)
+    ),
+
     detail
   };
 }
@@ -710,11 +1045,28 @@ app.post("/api/ler-gabarito", upload.single("gabarito"), async (req, res) => {
     if (problemas.length > 0) {
       const lista = problemas
         .map(r => {
+
           if (r.status === "blank") {
-            return `Q${String(r.question).padStart(2, "0")}: em branco`;
+            return (
+              `Q${String(r.question).padStart(2, "0")}: em branco`
+            );
           }
 
-          return `Q${String(r.question).padStart(2, "0")}: dupla (${r.marked.join(" + ")})`;
+          if (r.status === "review") {
+            return (
+              `Q${String(r.question).padStart(2, "0")}: revisar` +
+              (
+                r.suggested
+                  ? ` (sugestão ${r.suggested})`
+                  : ""
+              )
+            );
+          }
+
+          return (
+            `Q${String(r.question).padStart(2, "0")}: dupla ` +
+            `(${r.marked.join(" + ")})`
+          );
         })
         .join("; ");
 
@@ -753,6 +1105,35 @@ app.get("/api/status", (_req, res) => {
     service: "Leitor OMR",
     questions: 35,
     alternatives: ALTERNATIVES
+  });
+});
+
+app.get("/api/alunos", (req, res) => {
+  const alunos = carregarAlunos();
+
+  res.json({
+    ok: true,
+    total: alunos.length,
+    alunos
+  });
+});
+
+app.get("/api/alunos/:rm", (req, res) => {
+  const alunos = carregarAlunos();
+  const rm = String(req.params.rm).trim();
+
+  const aluno = alunos.find(a => String(a.rm).trim() === rm);
+
+  if (!aluno) {
+    return res.status(404).json({
+      ok: false,
+      error: "Aluno não encontrado."
+    });
+  }
+
+  res.json({
+    ok: true,
+    aluno
   });
 });
 

@@ -1,5 +1,6 @@
 /* =========================================================
-   LEITOR OMR — UI / UX
+   LEITOR OMR
+   Interface limpa, profissional e discreta
    ========================================================= */
 
 :root {
@@ -7,36 +8,30 @@
   --primary-dark: #1d4ed8;
   --primary-soft: #eff6ff;
 
-  --success: #16a34a;
+  --success: #15803d;
   --success-soft: #f0fdf4;
 
   --danger: #dc2626;
   --danger-soft: #fef2f2;
 
-  --warning: #d97706;
+  --warning: #b45309;
   --warning-soft: #fffbeb;
 
-  --text: #111827;
-  --text-secondary: #4b5563;
-  --text-muted: #6b7280;
+  --text: #172033;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
 
-  --border: #e5e7eb;
+  --border: #e2e8f0;
   --border-light: #f1f5f9;
 
   --surface: #ffffff;
-  --background: #f5f7fb;
+  --background: #f6f8fb;
 
-  --radius: 14px;
-  --radius-sm: 10px;
+  --radius: 12px;
+  --radius-sm: 8px;
 
-  --shadow-sm:
-    0 1px 2px rgba(15, 23, 42, 0.04);
-
-  --shadow:
-    0 4px 12px rgba(15, 23, 42, 0.06);
-
-  --shadow-lg:
-    0 12px 30px rgba(15, 23, 42, 0.08);
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow: 0 3px 10px rgba(15, 23, 42, 0.06);
 }
 
 
@@ -91,14 +86,24 @@ textarea {
 
 
 /* =========================================================
-   CABEÇALHO
+   HERO / CABEÇALHO PRINCIPAL
    ========================================================= */
 
-header {
-  padding: 42px 0 28px;
+.hero {
+  padding: 42px 0 26px;
 }
 
-header h1 {
+.eyebrow {
+  margin: 0 0 8px;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+
+  color: var(--primary);
+}
+
+.hero h1 {
   margin: 0;
 
   font-size: 30px;
@@ -109,13 +114,15 @@ header h1 {
   color: var(--text);
 }
 
-header p {
-  margin: 8px 0 0;
+.hero p:not(.eyebrow) {
+  max-width: 720px;
 
-  color: var(--text-muted);
+  margin: 10px 0 0;
 
   font-size: 15px;
   line-height: 1.6;
+
+  color: var(--text-muted);
 }
 
 
@@ -128,93 +135,91 @@ header p {
   background: var(--surface);
 
   border: 1px solid var(--border);
-
   border-radius: var(--radius);
 
-  padding: 26px;
-
-  margin-bottom: 20px;
+  padding: 24px;
+  margin-bottom: 18px;
 
   box-shadow: var(--shadow-sm);
-
-  transition:
-    box-shadow 0.2s ease,
-    border-color 0.2s ease;
-}
-
-.card:hover,
-.page-card:hover {
-  border-color: #dbe1ea;
-  box-shadow: var(--shadow);
 }
 
 .card h2 {
-  margin: 0 0 20px;
+  margin: 0 0 18px;
 
   font-size: 18px;
-  line-height: 1.3;
-
   font-weight: 700;
 
   color: var(--text);
 }
 
-.page-title {
-  margin: 0;
-
-  font-size: 20px;
-  line-height: 1.3;
-
-  font-weight: 700;
-  letter-spacing: -0.25px;
-
-  color: var(--text);
+.page-card {
+  margin-top: 18px;
 }
 
 
 /* =========================================================
-   FORMULÁRIOS
+   CAMPOS
    ========================================================= */
+
+.field {
+  margin-bottom: 22px;
+}
+
+.field:last-child {
+  margin-bottom: 0;
+}
 
 label {
   display: block;
 
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 
   font-size: 13px;
-
   font-weight: 650;
 
   color: var(--text-secondary);
 }
 
+.field small {
+  display: block;
+
+  margin-top: 7px;
+
+  font-size: 12px;
+  line-height: 1.5;
+
+  color: var(--text-muted);
+}
+
+
+/* =========================================================
+   INPUTS
+   ========================================================= */
+
 input[type="file"],
 textarea {
   width: 100%;
 
-  border: 1px solid #d7dce4;
-
+  border: 1px solid #d7dee8;
   border-radius: var(--radius-sm);
 
-  background: #fff;
+  background: #ffffff;
 
-  padding: 12px 13px;
+  padding: 10px 11px;
 
   font-size: 14px;
-
   color: var(--text);
 
   outline: none;
 
   transition:
-    border-color 0.2s ease,
-    box-shadow 0.2s ease,
-    background 0.2s ease;
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
 }
 
 input[type="file"]:hover,
 textarea:hover {
-  border-color: #b8c0cc;
+  border-color: #c4ceda;
 }
 
 input[type="file"]:focus,
@@ -222,50 +227,39 @@ textarea:focus {
   border-color: var(--primary);
 
   box-shadow:
-    0 0 0 3px rgba(37, 99, 235, 0.12);
+    0 0 0 3px rgba(37, 99, 235, 0.10);
 }
-
-textarea {
-  min-height: 90px;
-
-  resize: vertical;
-}
-
-
-/* =========================================================
-   INPUT FILE
-   ========================================================= */
 
 input[type="file"] {
   cursor: pointer;
-
-  padding: 10px;
 }
 
 input[type="file"]::file-selector-button {
-  border: 0;
-
-  border-radius: 8px;
-
-  padding: 8px 12px;
-
   margin-right: 10px;
 
-  background: var(--primary-soft);
+  padding: 7px 11px;
 
+  border: 0;
+  border-radius: 7px;
+
+  background: var(--primary-soft);
   color: var(--primary);
 
-  font-size: 13px;
-
+  font-size: 12px;
   font-weight: 650;
 
   cursor: pointer;
 
-  transition: background 0.2s ease;
+  transition: background 0.15s ease;
 }
 
 input[type="file"]::file-selector-button:hover {
   background: #dbeafe;
+}
+
+textarea {
+  min-height: 90px;
+  resize: vertical;
 }
 
 
@@ -275,36 +269,32 @@ input[type="file"]::file-selector-button:hover {
 
 button {
   border: 0;
+  border-radius: 8px;
 
-  border-radius: 10px;
+  padding: 10px 16px;
 
-  padding: 11px 17px;
+  background: var(--primary);
+  color: #ffffff;
 
   font-size: 14px;
-
   font-weight: 650;
 
   cursor: pointer;
 
-  background: var(--primary);
-
-  color: #fff;
-
-  box-shadow:
-    0 1px 2px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-sm);
 
   transition:
-    background 0.18s ease,
+    background 0.15s ease,
+    box-shadow 0.15s ease,
     transform 0.1s ease,
-    box-shadow 0.18s ease,
-    opacity 0.18s ease;
+    opacity 0.15s ease;
 }
 
 button:hover {
   background: var(--primary-dark);
 
   box-shadow:
-    0 4px 10px rgba(37, 99, 235, 0.18);
+    0 3px 8px rgba(37, 99, 235, 0.16);
 }
 
 button:active {
@@ -315,20 +305,19 @@ button:focus-visible {
   outline: none;
 
   box-shadow:
-    0 0 0 3px rgba(37, 99, 235, 0.18);
+    0 0 0 3px rgba(37, 99, 235, 0.14);
 }
 
 button:disabled {
   cursor: not-allowed;
-
-  opacity: 0.5;
+  opacity: 0.55;
 
   box-shadow: none;
 }
 
 
 /* =========================================================
-   STATUS
+   STATUS GERAL
    ========================================================= */
 
 .status {
@@ -336,200 +325,73 @@ button:disabled {
 
   margin: 16px 0;
 
-  padding: 13px 15px;
-
-  border-radius: 10px;
-
-  font-size: 14px;
-
-  font-weight: 500;
+  padding: 12px 14px;
 
   border: 1px solid transparent;
+  border-radius: 9px;
+
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .status:not(:empty) {
   display: flex;
 
   align-items: center;
-
-  gap: 9px;
 }
 
 .status.loading {
   background: #f8fafc;
+  border-color: var(--border);
 
   color: var(--text-secondary);
-
-  border-color: var(--border);
 }
 
 .status.success {
   background: var(--success-soft);
-
-  color: #15803d;
-
   border-color: #bbf7d0;
+
+  color: var(--success);
 }
 
 .status.error {
   background: var(--danger-soft);
+  border-color: #fecaca;
 
   color: #b91c1c;
-
-  border-color: #fecaca;
 }
 
-
-/* =========================================================
-   RESUMO
-   ========================================================= */
-
-.summary-grid {
-  display: grid;
-
-  grid-template-columns:
-    repeat(4, minmax(0, 1fr));
-
-  gap: 14px;
-}
-
-.summary-item {
-  position: relative;
-
-  background: #fff;
-
-  border: 1px solid var(--border);
-
-  border-radius: 12px;
-
-  padding: 18px 16px;
-
-  text-align: center;
-
-  box-shadow: var(--shadow-sm);
-
-  transition:
-    transform 0.18s ease,
-    box-shadow 0.18s ease;
-}
-
-.summary-item:hover {
-  transform: translateY(-2px);
-
-  box-shadow: var(--shadow);
-}
-
-.summary-item span {
-  display: block;
-
-  color: var(--text-muted);
-
-  font-size: 12px;
-
-  font-weight: 550;
-
-  margin-bottom: 5px;
-
-  text-transform: uppercase;
-
-  letter-spacing: 0.3px;
-}
-
-.summary-item strong {
-  display: block;
-
-  font-size: 25px;
-
-  line-height: 1.2;
-
-  font-weight: 750;
-
-  color: var(--text);
-}
-
-/* =========================================================
-   RESUMO DA CORREÇÃO
-   ========================================================= */
-
-.grade-box {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 10px;
-  margin: 18px 0;
-}
-
-.grade-box > div {
-  padding: 14px;
-  border: 1px solid #e2e5e8;
-  border-radius: 12px;
-  background: #fff;
-}
-
-.grade-box span {
-  display: block;
-  font-size: 12px;
-  color: #6b7280;
-  margin-bottom: 5px;
-}
-
-.grade-box strong {
-  font-size: 20px;
-}
-
-.grade-wrong {
-  color: #dc3545;
-}
-
-.grade-blank {
-  color: #6c757d;
-}
-
-.grade-invalid {
-  color: #f59f00;
-}
-
-.grade-score {
-  color: #198754;
-}
 
 /* =========================================================
    GABARITO OFICIAL
    ========================================================= */
 
 .gabarito-container {
-  margin-top: 20px;
+  margin-top: 10px;
 
-  padding: 22px;
+  padding: 20px;
 
-  background:
-    linear-gradient(
-      180deg,
-      #fafbfc 0%,
-      #f7f9fc 100%
-    );
+  background: #fafbfd;
 
   border: 1px solid var(--border);
-
-  border-radius: 13px;
+  border-radius: 10px;
 }
 
 .gabarito-header {
   display: flex;
 
-  align-items: center;
-
+  align-items: flex-start;
   justify-content: space-between;
 
-  gap: 20px;
+  gap: 16px;
 
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .gabarito-header h3 {
   margin: 0;
 
   font-size: 16px;
-
   font-weight: 700;
 
   color: var(--text);
@@ -539,8 +401,30 @@ button:disabled {
   margin: 5px 0 0;
 
   font-size: 13px;
+  line-height: 1.5;
 
   color: var(--text-muted);
+}
+
+
+/* =========================================================
+   IMPORTAÇÃO DO GABARITO
+   ========================================================= */
+
+.gabarito-import-row {
+  display: grid;
+
+  grid-template-columns: minmax(0, 1fr) auto;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 12px;
+}
+
+.gabarito-import-row input[type="file"] {
+  min-width: 0;
 }
 
 
@@ -549,69 +433,334 @@ button:disabled {
    ========================================================= */
 
 .gabarito-status {
-  min-width: 78px;
+  display: flex;
 
-  padding: 7px 12px;
+  align-items: center;
 
-  text-align: center;
+  min-height: 38px;
 
-  border-radius: 999px;
+  padding: 9px 11px;
 
-  background: #f1f5f9;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  background: #ffffff;
 
   color: var(--text-muted);
 
-  border: 1px solid #e2e8f0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.gabarito-status.success {
+  background: var(--success-soft);
+  border-color: #bbf7d0;
+
+  color: var(--success);
+}
+
+.gabarito-status.loading {
+  background: #f8fafc;
+  border-color: var(--border);
+
+  color: var(--text-secondary);
+}
+
+.gabarito-status.error {
+  background: var(--danger-soft);
+  border-color: #fecaca;
+
+  color: #b91c1c;
+}
+
+
+/* =========================================================
+   MENSAGEM DO GABARITO
+   ========================================================= */
+
+.gabarito-mensagem {
+  margin-top: 10px;
+
+  padding: 9px 11px;
+
+  border: 1px solid #fde68a;
+  border-radius: 8px;
+
+  background: var(--warning-soft);
+
+  color: var(--warning);
 
   font-size: 12px;
+  line-height: 1.5;
+}
 
+.gabarito-mensagem.complete {
+  background: var(--success-soft);
+  border-color: #bbf7d0;
+
+  color: var(--success);
+}
+
+
+/* =========================================================
+   RESPOSTAS DO GABARITO
+   ========================================================= */
+
+.gabarito-respostas {
+  margin-top: 10px;
+
+  padding: 10px 12px;
+
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  background: #ffffff;
+
+  color: var(--text-secondary);
+
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Consolas,
+    "Liberation Mono",
+    monospace;
+
+  font-size: 12px;
+  letter-spacing: 0.5px;
+
+  word-break: break-word;
+}
+
+
+/* =========================================================
+   RESUMO GERAL
+   ========================================================= */
+
+.summary-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+
+  gap: 12px;
+
+  margin-bottom: 18px;
+}
+
+.summary-item {
+  padding: 16px;
+
+  background: #ffffff;
+
+  border: 1px solid var(--border);
+  border-radius: 10px;
+
+  box-shadow: var(--shadow-sm);
+}
+
+.summary-item span {
+  display: block;
+
+  margin-bottom: 5px;
+
+  font-size: 11px;
+  font-weight: 650;
+
+  color: var(--text-muted);
+
+  text-transform: uppercase;
+  letter-spacing: 0.35px;
+}
+
+.summary-item strong {
+  display: block;
+
+  font-size: 23px;
+  line-height: 1.2;
+
+  font-weight: 750;
+
+  color: var(--text);
+}
+
+
+/* =========================================================
+   CABEÇALHO DE CADA PÁGINA
+   ========================================================= */
+
+.page-header {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 16px;
+
+  margin-bottom: 18px;
+}
+
+.page-label {
+  display: block;
+
+  margin-bottom: 3px;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 0.7px;
+
+  color: var(--text-muted);
+}
+
+.page-title {
+  margin: 0;
+
+  font-size: 20px;
+  line-height: 1.3;
+
+  font-weight: 700;
+  letter-spacing: -0.2px;
+
+  color: var(--text);
+}
+
+
+/* =========================================================
+   BADGES
+   ========================================================= */
+
+.badges {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: flex-end;
+
+  gap: 6px;
+}
+
+.badge {
+  display: inline-flex;
+
+  align-items: center;
+
+  padding: 5px 9px;
+
+  border: 1px solid transparent;
+  border-radius: 999px;
+
+  font-size: 10px;
   font-weight: 700;
 
   white-space: nowrap;
 }
 
-.gabarito-status.complete {
+.badge-ok {
   background: var(--success-soft);
-
-  color: #15803d;
-
   border-color: #bbf7d0;
+
+  color: var(--success);
+}
+
+.badge-blank {
+  background: #f8fafc;
+  border-color: #e2e8f0;
+
+  color: #64748b;
+}
+
+.badge-warn {
+  background: var(--warning-soft);
+  border-color: #fed7aa;
+
+  color: var(--warning);
 }
 
 
 /* =========================================================
-   LEGENDA A B C D E
+   RESUMO DA CORREÇÃO
    ========================================================= */
 
-.gabarito-legenda {
+.grade-box {
   display: grid;
 
   grid-template-columns:
-    42px repeat(5, 1fr);
+    repeat(5, minmax(0, 1fr));
 
-  gap: 6px;
+  gap: 10px;
 
-  margin-bottom: 7px;
+  margin-bottom: 20px;
 
-  padding: 0 5px;
+  padding: 14px;
 
-  text-align: center;
+  background: #fafbfd;
 
-  font-size: 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.grade-box > div {
+  min-width: 0;
+
+  padding: 10px 12px;
+
+  background: #ffffff;
+
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+}
+
+.grade-box span {
+  display: block;
+
+  margin-bottom: 4px;
+
+  font-size: 11px;
+  font-weight: 600;
+
+  color: var(--text-muted);
+}
+
+.grade-box strong {
+  display: block;
+
+  font-size: 20px;
+  line-height: 1.2;
 
   font-weight: 750;
-
-  color: #94a3b8;
-
-  text-transform: uppercase;
 }
 
 
 /* =========================================================
-   GRADE DO GABARITO
+   CORES DO RESULTADO
    ========================================================= */
 
-.gabarito-grid {
+.grade-correct {
+  color: var(--success);
+}
+
+.grade-wrong {
+  color: var(--danger);
+}
+
+.grade-blank {
+  color: #64748b;
+}
+
+.grade-invalid {
+  color: var(--warning);
+}
+
+.grade-score {
+  color: var(--text);
+}
+
+
+/* =========================================================
+   QUESTÕES
+   ========================================================= */
+
+.questions {
   display: grid;
 
   grid-template-columns:
@@ -625,182 +774,201 @@ button:disabled {
   gap: 8px;
 }
 
+.question {
+  position: relative;
 
-/* =========================================================
-   QUESTÃO DO GABARITO
-   ========================================================= */
+  min-height: 56px;
 
-.gabarito-question {
-  display: grid;
-
-  grid-template-columns:
-    30px repeat(5, minmax(0, 1fr));
+  display: flex;
 
   align-items: center;
+  justify-content: center;
 
-  gap: 4px;
+  gap: 8px;
 
-  min-height: 48px;
+  padding: 9px 7px;
 
-  padding: 5px;
-
-  background: #fff;
+  background: #ffffff;
 
   border: 1px solid var(--border);
-
-  border-radius: 10px;
+  border-radius: 9px;
 
   box-shadow: var(--shadow-sm);
 
   transition:
-    border-color 0.18s ease,
-    box-shadow 0.18s ease,
-    transform 0.18s ease;
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
 }
 
-.gabarito-question:hover {
+.question:hover {
   border-color: #cbd5e1;
-
-  transform: translateY(-1px);
 
   box-shadow: var(--shadow);
 }
 
-
-/* =========================================================
-   NÚMERO
-   ========================================================= */
-
-.gabarito-number {
-  text-align: center;
+.question .number {
+  flex-shrink: 0;
 
   font-size: 11px;
+  font-weight: 650;
 
-  font-weight: 750;
-
-  color: var(--text-secondary);
+  color: var(--text-muted);
 }
 
+.answer-info {
+  min-width: 0;
 
-/* =========================================================
-   ALTERNATIVAS
-   ========================================================= */
-
-.gabarito-option {
   display: flex;
 
-  align-items: center;
+  flex-direction: column;
 
-  justify-content: center;
+  gap: 2px;
+}
 
-  width: 100%;
-  height: 30px;
-
-  padding: 0;
-
-  border: 1px solid #d8dee8;
-
-  border-radius: 7px;
-
-  background: #fff;
-
-  color: #475569;
-
-  font-size: 11px;
+.answer-info strong {
+  font-size: 15px;
+  line-height: 1.2;
 
   font-weight: 750;
 
-  cursor: pointer;
+  color: var(--text);
 
-  box-shadow: none;
-
-  transition:
-    background 0.15s ease,
-    border-color 0.15s ease,
-    color 0.15s ease,
-    transform 0.1s ease;
+  white-space: nowrap;
 }
 
-.gabarito-option:hover {
-  background: var(--primary-soft);
+.answer-info small {
+  font-size: 10px;
+  line-height: 1.2;
 
-  border-color: #93c5fd;
+  color: var(--text-muted);
 
-  color: var(--primary);
-
-  box-shadow: none;
-}
-
-.gabarito-option:active {
-  transform: scale(0.96);
+  white-space: nowrap;
 }
 
 
 /* =========================================================
-   ALTERNATIVA SELECIONADA
+   QUESTÃO CORRETA
    ========================================================= */
 
-.gabarito-option.selected {
-  background: var(--primary);
-
-  border-color: var(--primary);
-
-  color: #fff;
-
-  box-shadow:
-    0 2px 5px rgba(37, 99, 235, 0.2);
+.question.q-marked {
+  border-left: 3px solid #86efac;
 }
 
-.gabarito-option.selected:hover {
-  background: var(--primary-dark);
-
-  border-color: var(--primary-dark);
-
-  color: #fff;
+.question.q-marked .answer-info strong {
+  color: var(--text);
 }
 
 
 /* =========================================================
-   MENSAGEM DO GABARITO
+   QUESTÃO ERRADA
    ========================================================= */
 
-.gabarito-mensagem {
-  margin-top: 14px;
+.question.q-wrong {
+  background: var(--danger-soft);
 
-  padding: 10px 12px;
+  border-color: #fecaca;
+  border-left: 3px solid #ef4444;
+}
 
-  border-radius: 9px;
+.question.q-wrong .answer-info strong {
+  color: #b91c1c;
+}
 
+.question.q-wrong .number {
+  color: #b91c1c;
+}
+
+.question.q-wrong:hover {
+  border-color: #fca5a5;
+}
+
+
+/* =========================================================
+   QUESTÃO EM BRANCO
+   ========================================================= */
+
+.question.q-blank {
+  background: #f8fafc;
+
+  border-color: #e2e8f0;
+  border-left: 3px solid #cbd5e1;
+}
+
+.question.q-blank .answer-info strong {
+  color: #94a3b8;
+}
+
+.question.q-blank .number {
+  color: #94a3b8;
+}
+
+
+/* =========================================================
+   DUPLA MARCAÇÃO
+   ========================================================= */
+
+.question.q-double {
   background: var(--warning-soft);
 
-  border: 1px solid #fde68a;
-
-  font-size: 13px;
-
-  font-weight: 500;
-
-  color: #a16207;
+  border-color: #fed7aa;
+  border-left: 3px solid #f59e0b;
 }
 
-.gabarito-mensagem.complete {
-  background: var(--success-soft);
-
-  border-color: #bbf7d0;
-
-  color: #15803d;
+.question.q-double .answer-info strong {
+  color: #b45309;
 }
 
+.question.q-double .number {
+  color: #b45309;
+}
 
 /* =========================================================
-   RESULTADO / NOTA
+   QUESTÃO PARA REVISÃO
    ========================================================= */
 
+.q-review {
+  background: #fffaf0;
+  border-color: #fcd34d;
+  border-left: 4px solid #d97706;
+}
+
+.q-review strong {
+  color: #b45309;
+}
+
+.q-review .number {
+  color: #b45309;
+}
+
+.q-review:hover {
+  border-color: #f59e0b;
+  box-shadow:
+    0 5px 14px rgba(217, 119, 6, 0.10);
+}
+
+/* Badge de revisão */
+
+.badge-review {
+  background: #fff7ed;
+  color: #b45309;
+  border-color: #fed7aa;
+}
+
+/* Revisão na caixa de nota */
+
+.grade-review {
+  color: #d97706;
+}
+
 .grade-box {
-  display: flex;
+  display: grid;
 
-  align-items: center;
+  grid-template-columns:
+    repeat(6, minmax(0, 1fr));
 
-  gap: 28px;
+  gap: 10px;
+
+  align-items: stretch;
 
   background:
     linear-gradient(
@@ -820,239 +988,6 @@ button:disabled {
   box-shadow: var(--shadow-sm);
 }
 
-.grade-correct {
-  font-size: 20px;
-
-  font-weight: 750;
-
-  color: var(--success);
-}
-
-.grade-score {
-  font-size: 27px;
-
-  line-height: 1;
-
-  font-weight: 800;
-
-  color: var(--text);
-
-  letter-spacing: -0.5px;
-}
-
-
-/* =========================================================
-   BADGES
-   ========================================================= */
-
-.badges {
-  display: flex;
-
-  flex-wrap: wrap;
-
-  gap: 7px;
-
-  margin: 14px 0 20px;
-}
-
-.badge {
-  display: inline-flex;
-
-  align-items: center;
-
-  border-radius: 999px;
-
-  padding: 5px 10px;
-
-  font-size: 11px;
-
-  font-weight: 700;
-
-  border: 1px solid transparent;
-}
-
-.badge-ok {
-  background: var(--success-soft);
-
-  color: #15803d;
-
-  border-color: #bbf7d0;
-}
-
-.badge-blank {
-  background: #f8fafc;
-
-  color: #64748b;
-
-  border-color: #e2e8f0;
-}
-
-.badge-warn {
-  background: var(--warning-soft);
-
-  color: #b45309;
-
-  border-color: #fed7aa;
-}
-
-
-/* =========================================================
-   QUESTÕES
-   ========================================================= */
-
-.questions {
-  display: grid;
-
-  grid-template-columns:
-    repeat(7, minmax(0, 1fr));
-
-  grid-template-rows:
-    repeat(5, auto);
-
-  grid-auto-flow: column;
-
-  gap: 9px;
-}
-
-.question {
-  min-height: 54px;
-
-  display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-
-  gap: 7px;
-
-  padding: 9px 6px;
-
-  background: #fff;
-
-  border: 1px solid var(--border);
-
-  border-radius: 10px;
-
-  box-shadow: var(--shadow-sm);
-
-  transition:
-    transform 0.18s ease,
-    box-shadow 0.18s ease,
-    border-color 0.18s ease;
-}
-
-.question:hover {
-  transform: translateY(-2px);
-
-  border-color: #cbd5e1;
-
-  box-shadow: var(--shadow);
-}
-
-.question .number {
-  font-size: 11px;
-
-  color: var(--text-muted);
-
-  font-weight: 650;
-}
-
-.question strong {
-  font-size: 16px;
-
-  color: var(--text);
-
-  font-weight: 750;
-}
-
-
-/* =========================================================
-   QUESTÃO MARCADA
-   ========================================================= */
-
-.q-marked {
-  background: #fff;
-
-  border-color: #dbe1e8;
-}
-
-
-/* =========================================================
-   QUESTÃO ERRADA
-   ========================================================= */
-
-.q-wrong {
-  background: var(--danger-soft);
-
-  border-color: #fecaca;
-
-  box-shadow:
-    0 1px 2px rgba(220, 38, 38, 0.04);
-}
-
-.q-wrong strong {
-  color: var(--danger);
-}
-
-.q-wrong .number {
-  color: #b91c1c;
-}
-
-.q-wrong:hover {
-  border-color: #fca5a5;
-
-  box-shadow:
-    0 5px 14px rgba(220, 38, 38, 0.1);
-}
-
-
-/* =========================================================
-   QUESTÃO EM BRANCO
-   ========================================================= */
-
-.q-blank {
-  background: #f8fafc;
-
-  border-color: #e5e7eb;
-}
-
-.q-blank strong {
-  color: #94a3b8;
-}
-
-
-/* =========================================================
-   DUPLA MARCAÇÃO
-   ========================================================= */
-
-.q-double {
-  background: var(--warning-soft);
-
-  border-color: #fed7aa;
-}
-
-.q-double strong {
-  color: #c2410c;
-}
-
-.q-double .number {
-  color: #c2410c;
-}
-
-
-/* =========================================================
-   CONFIANÇA
-   ========================================================= */
-
-.confidence {
-  font-size: 10px;
-
-  color: #94a3b8;
-
-  font-weight: 500;
-}
-
-
 /* =========================================================
    DIAGNÓSTICO
    ========================================================= */
@@ -1070,62 +1005,21 @@ button:disabled {
   display: none !important;
 }
 
-/* =========================================================
-   CONFERÊNCIA DAS RESPOSTAS
-   ========================================================= */
-
-.question {
-  position: relative;
-}
-
-.answer-info {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.answer-info strong {
-  font-size: 15px;
-}
-
-.answer-info small {
-  font-size: 11px;
-  opacity: 0.75;
-}
-
-/* Resposta correta */
-.question.q-marked {
-  border-left: 4px solid #198754;
-}
-
-/* Resposta errada */
-.question.q-wrong {
-  background: #fff0f0 !important;
-  border: 1px solid #dc3545 !important;
-  border-left: 4px solid #dc3545 !important;
-}
-
-.question.q-wrong strong {
-  color: #b42318;
-}
-
-/* Em branco */
-.question.q-blank {
-  background: #f5f5f5;
-  border-left: 4px solid #6c757d;
-}
-
-/* Dupla */
-.question.q-double {
-  background: #fff7e6;
-  border-left: 4px solid #f59f00;
-}
 
 /* =========================================================
-   RESPONSIVIDADE — TABLET
+   RESULTADOS
    ========================================================= */
 
-@media (max-width: 900px) {
+.results {
+  padding-bottom: 30px;
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+@media (max-width: 950px) {
 
   .container {
     width: min(100% - 32px, 1120px);
@@ -1135,32 +1029,21 @@ button:disabled {
     grid-template-columns:
       repeat(5, minmax(0, 1fr));
   }
-
-  .gabarito-grid {
-    grid-template-columns:
-      repeat(5, minmax(0, 1fr));
-  }
-
 }
 
 
-/* =========================================================
-   TABLET PEQUENO
-   ========================================================= */
+@media (max-width: 800px) {
 
-@media (max-width: 700px) {
-
-  header {
-    padding: 30px 0 22px;
+  .hero {
+    padding-top: 32px;
   }
 
-  header h1 {
-    font-size: 26px;
+  .hero h1 {
+    font-size: 27px;
   }
 
-  .card,
-  .page-card {
-    padding: 20px;
+  .gabarito-import-row {
+    grid-template-columns: 1fr;
   }
 
   .summary-grid {
@@ -1168,116 +1051,147 @@ button:disabled {
       repeat(2, minmax(0, 1fr));
   }
 
+  .grade-box {
+    grid-template-columns:
+      repeat(3, minmax(0, 1fr));
+  }
+
   .questions {
     grid-template-columns:
-      repeat(3, minmax(0, 1fr));
-  }
+      repeat(4, minmax(0, 1fr));
 
-  .gabarito-grid {
-    grid-template-columns:
-      repeat(3, minmax(0, 1fr));
+    grid-template-rows: none;
+    grid-auto-flow: row;
   }
-
 }
 
 
-/* =========================================================
-   CELULAR
-   ========================================================= */
-
-@media (max-width: 520px) {
+@media (max-width: 650px) {
 
   .container {
-    width: calc(100% - 20px);
+    width: calc(100% - 24px);
   }
 
-  header {
-    padding: 24px 0 18px;
+  .hero {
+    padding: 28px 0 20px;
   }
 
-  header h1 {
-    font-size: 23px;
+  .hero h1 {
+    font-size: 24px;
   }
 
-  header p {
+  .hero p:not(.eyebrow) {
     font-size: 14px;
   }
 
   .card,
   .page-card {
+    padding: 18px;
+  }
+
+  .gabarito-container {
     padding: 16px;
-
-    border-radius: 12px;
   }
 
-  .card h2 {
-    font-size: 17px;
-  }
-
-  .summary-grid {
-    gap: 9px;
-  }
-
-  .summary-item {
-    padding: 15px 10px;
-  }
-
-  .summary-item strong {
-    font-size: 22px;
-  }
-
-  .grade-box {
+  .gabarito-header {
     flex-direction: column;
-
     align-items: flex-start;
+  }
+
+  .page-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .badges {
+    justify-content: flex-start;
+  }
+
+  .questions {
+    grid-template-columns:
+      repeat(3, minmax(0, 1fr));
 
     gap: 7px;
   }
 
-  .grade-score {
-    font-size: 25px;
+  .question {
+    min-height: 52px;
+  }
+
+  .grade-box {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .container {
+    width: calc(100% - 18px);
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .card,
+  .page-card {
+    padding: 15px;
+  }
+
+  .gabarito-container {
+    padding: 13px;
+  }
+
+  .summary-grid {
+    gap: 8px;
+  }
+
+  .summary-item {
+    padding: 13px 10px;
+  }
+
+  .summary-item strong {
+    font-size: 20px;
+  }
+
+  .grade-box {
+    grid-template-columns: 1fr 1fr;
+
+    padding: 10px;
+  }
+
+  .grade-box > div {
+    padding: 9px;
+  }
+
+  .grade-box strong {
+    font-size: 18px;
   }
 
   .questions {
     grid-template-columns:
       repeat(2, minmax(0, 1fr));
-
-    gap: 7px;
   }
 
   .question {
     min-height: 50px;
   }
 
-  .gabarito-container {
-    padding: 14px;
+  .answer-info strong {
+    font-size: 14px;
   }
-
-  .gabarito-header {
-    flex-direction: column;
-
-    align-items: flex-start;
-
-    gap: 10px;
-  }
-
-  .gabarito-grid {
-    grid-template-columns:
-      repeat(2, minmax(0, 1fr));
-
-    gap: 7px;
-  }
-
 }
 
 
-/* =========================================================
-   CELULAR PEQUENO
-   ========================================================= */
-
-@media (max-width: 380px) {
+@media (max-width: 360px) {
 
   .summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grade-box {
     grid-template-columns: 1fr;
   }
 
@@ -1285,10 +1199,9 @@ button:disabled {
     grid-template-columns: 1fr 1fr;
   }
 
-  .gabarito-grid {
-    grid-template-columns: 1fr;
+  .gabarito-import-row button {
+    width: 100%;
   }
-
 }
 
 
@@ -1304,8 +1217,6 @@ button:disabled {
     scroll-behavior: auto !important;
 
     transition-duration: 0.01ms !important;
-
     animation-duration: 0.01ms !important;
   }
-
 }

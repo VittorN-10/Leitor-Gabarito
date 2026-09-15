@@ -203,9 +203,14 @@
         return `DUPLA: ${result.marked.join(" + ")}`;
       }
 
+      if (result.status === "review") {
+        return result.suggested
+          ? `REVISAR: ${result.suggested}`
+          : "REVISAR";
+      }
+
       return result.answer;
     }
-
 
     function statusClass(result) {
       if (result.status === "blank") {
@@ -214,6 +219,10 @@
 
       if (result.status === "double") {
         return "q-double";
+      }
+
+      if (result.status === "review") {
+        return "q-review";
       }
 
       if (result.correct === false) {
@@ -238,9 +247,9 @@
           0
         );
 
-      const totalDouble =
+      const totalReview =
         data.pages.reduce(
-          (s, p) => s + p.summary.double,
+          (s, p) => s + p.summary.review,
           0
         );
 
@@ -267,6 +276,11 @@
           <div class="summary-item">
             <span>Duplas</span>
             <strong>${totalDouble}</strong>
+          </div>
+
+          <div class="summary-item">
+            <span>Revisar</span>
+            <strong>${totalReview}</strong>
           </div>
 
         </div>
@@ -473,6 +487,10 @@
         <span class="badge badge-warn">
           ${page.summary.double} duplas
         </span>
+
+        <span class="badge badge-review">
+          ${page.summary.review} revisar
+        </span>
       `;
 
 
@@ -489,48 +507,60 @@
 
         gradeBox.innerHTML = `
 
-          <div>
-            <span>Acertos</span>
-            <strong class="grade-correct">
-              ${page.grading.correct}/35
-            </strong>
-          </div>
+        <div>
+          <span>Acertos</span>
+          <strong class="grade-correct">
+            ${page.grading.correct}/35
+          </strong>
+        </div>
 
-          <div>
-            <span>Erros</span>
-            <strong class="grade-wrong">
-              ${page.grading.wrong}
-            </strong>
-          </div>
+        <div>
+          <span>Erros</span>
+          <strong class="grade-wrong">
+            ${page.grading.wrong}
+          </strong>
+        </div>
 
-          <div>
-            <span>Em branco</span>
-            <strong class="grade-blank">
-              ${page.grading.blank}
-            </strong>
-          </div>
+        <div>
+          <span>Em branco</span>
+          <strong class="grade-blank">
+            ${page.grading.blank}
+          </strong>
+        </div>
 
-          <div>
-            <span>Duplas</span>
-            <strong class="grade-invalid">
-              ${page.grading.invalid}
-            </strong>
-          </div>
+        <div>
+          <span>Duplas</span>
+          <strong class="grade-invalid">
+            ${page.grading.invalid}
+          </strong>
+        </div>
 
-          <div>
-            <span>Nota</span>
-            <strong class="grade-score">
-              ${page.grading.score.toLocaleString(
-          "pt-BR",
-          {
-            minimumFractionDigits: 2,
-            maximumFractionDigits: 2
-          }
-        )}
-            </strong>
-          </div>
+        <div>
+          <span>Revisar</span>
+          <strong class="grade-review">
+            ${page.grading.review}
+          </strong>
+        </div>
 
-        `;
+        <div>
+          <span>
+            ${page.grading.review > 0
+              ? "Nota provisória"
+              : "Nota"}
+          </span>
+
+          <strong class="grade-score">
+            ${page.grading.score.toLocaleString(
+              "pt-BR",
+              {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2
+              }
+            )}
+          </strong>
+        </div>
+
+      `;
       }
 
 
