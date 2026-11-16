@@ -23,6 +23,52 @@
       </p>
     </section>
 
+
+    <section class="assessment-section card" aria-labelledby="assessmentHeading">
+      <div class="assessment-heading">
+        <div>
+          <p class="eyebrow">GERENCIAMENTO</p>
+          <h2 id="assessmentHeading">Avaliações</h2>
+          <p class="assessment-description">Cadastre provas, selecione a turma e defina a quantidade de questões.</p>
+        </div>
+        <span id="avaliacoesTotal" class="assessment-count">Carregando...</span>
+      </div>
+
+      <form id="formAvaliacao" class="assessment-form">
+        <div class="field">
+          <label for="avaliacaoTitulo">Nome da avaliação</label>
+          <input id="avaliacaoTitulo" name="titulo" type="text" maxlength="100" placeholder="Ex.: Prova de Banco de Dados" required>
+        </div>
+
+        <div class="assessment-fields">
+          <div class="field">
+            <label for="avaliacaoTurma">Turma</label>
+            <select id="avaliacaoTurma" name="turma" required>
+              <option value="">Carregando turmas...</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="avaliacaoQuestoes">Quantidade de questões</label>
+            <input id="avaliacaoQuestoes" name="quantidadeQuestoes" type="number" min="1" max="35" value="20" required>
+            <small>De 1 a 35 questões, com alternativas de A a E.</small>
+          </div>
+        </div>
+
+        <div class="assessment-actions">
+          <button id="btnCriarAvaliacao" type="submit">Criar avaliação</button>
+          <span id="avaliacaoMensagem" class="assessment-message" role="status" aria-live="polite"></span>
+        </div>
+      </form>
+
+      <div class="assessment-list-header">
+        <h3>Avaliações cadastradas</h3>
+        <button id="btnAtualizarAvaliacoes" class="button-secondary" type="button">Atualizar lista</button>
+      </div>
+      <div id="listaAvaliacoes" class="assessment-list">
+        <p class="assessment-empty">Carregando avaliações...</p>
+      </div>
+    </section>
+
     <section class="card">
 
       <form id="formLeitura">
@@ -780,6 +826,150 @@
 
       }
     );
+
+
+    // =========================================================
+    // GERENCIAMENTO DE AVALIAÇÕES
+    // =========================================================
+
+    const formAvaliacao = document.getElementById("formAvaliacao");
+    const campoTurmaAvaliacao = document.getElementById("avaliacaoTurma");
+    const campoTituloAvaliacao = document.getElementById("avaliacaoTitulo");
+    const campoQuestoesAvaliacao = document.getElementById("avaliacaoQuestoes");
+    const mensagemAvaliacao = document.getElementById("avaliacaoMensagem");
+    const listaAvaliacoes = document.getElementById("listaAvaliacoes");
+    const totalAvaliacoes = document.getElementById("avaliacoesTotal");
+    const btnCriarAvaliacao = document.getElementById("btnCriarAvaliacao");
+    const btnAtualizarAvaliacoes = document.getElementById("btnAtualizarAvaliacoes");
+
+    function mostrarMensagemAvaliacao(texto, tipo = "") {
+      mensagemAvaliacao.textContent = texto;
+      mensagemAvaliacao.className = `assessment-message ${tipo}`;
+    }
+
+    async function carregarTurmasAvaliacao() {
+      try {
+        const response = await fetch("/api/avaliacoes/turmas");
+        const data = await response.json();
+        if (!response.ok || !data.ok) {
+          throw new Error(data.error || "Não foi possível carregar as turmas.");
+        }
+
+        campoTurmaAvaliacao.innerHTML = '<option value="">Selecione uma turma</option>';
+        data.turmas.forEach(turma => {
+          const option = document.createElement("option");
+          option.value = turma;
+          option.textContent = turma;
+          campoTurmaAvaliacao.appendChild(option);
+        });
+
+        if (!data.turmas.length) {
+          campoTurmaAvaliacao.innerHTML = '<option value="">Nenhuma turma encontrada</option>';
+        }
+      } catch (error) {
+        campoTurmaAvaliacao.innerHTML = '<option value="">Erro ao carregar turmas</option>';
+        mostrarMensagemAvaliacao(error.message, "error");
+      }
+    }
+
+    function criarLinhaAvaliacao(avaliacao) {
+      const card = document.createElement("article");
+      card.className = "assessment-item";
+
+      const main = document.createElement("div");
+      main.className = "assessment-item-main";
+
+      const id = document.createElement("span");
+      id.className = "assessment-id";
+      id.textContent = avaliacao.id;
+
+      const title = document.createElement("h4");
+      title.textContent = avaliacao.titulo;
+
+      const meta = document.createElement("p");
+      meta.className = "assessment-meta";
+      meta.textContent = `${avaliacao.turma} · ${avaliacao.quantidadeQuestoes} questões`;
+
+      main.append(id, title, meta);
+
+      const status = document.createElement("span");
+      status.className = `assessment-status ${avaliacao.status === "rascunho" ? "draft" : "ready"}`;
+      status.textContent = avaliacao.status === "rascunho" ? "Rascunho" : avaliacao.status;
+
+      card.append(main, status);
+      return card;
+    }
+
+    async function carregarAvaliacoes() {
+      listaAvaliacoes.innerHTML = '<p class="assessment-empty">Carregando avaliações...</p>';
+
+      try {
+        const response = await fetch("/api/avaliacoes");
+        const data = await response.json();
+        if (!response.ok || !data.ok) {
+          throw new Error(data.error || "Não foi possível carregar as avaliações.");
+        }
+
+        totalAvaliacoes.textContent = `${data.total} ${data.total === 1 ? "avaliação" : "avaliações"}`;
+        listaAvaliacoes.innerHTML = "";
+
+        if (!data.avaliacoes.length) {
+          listaAvaliacoes.innerHTML = '<p class="assessment-empty">Nenhuma avaliação cadastrada ainda.</p>';
+          return;
+        }
+
+        data.avaliacoes.forEach(avaliacao => {
+          listaAvaliacoes.appendChild(criarLinhaAvaliacao(avaliacao));
+        });
+      } catch (error) {
+        totalAvaliacoes.textContent = "Indisponível";
+        listaAvaliacoes.innerHTML = "";
+        const aviso = document.createElement("p");
+        aviso.className = "assessment-empty error";
+        aviso.textContent = error.message;
+        listaAvaliacoes.appendChild(aviso);
+      }
+    }
+
+    formAvaliacao.addEventListener("submit", async event => {
+      event.preventDefault();
+
+      btnCriarAvaliacao.disabled = true;
+      btnCriarAvaliacao.textContent = "Salvando...";
+      mostrarMensagemAvaliacao("Cadastrando avaliação...");
+
+      try {
+        const response = await fetch("/api/avaliacoes", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            titulo: campoTituloAvaliacao.value.trim(),
+            turma: campoTurmaAvaliacao.value,
+            quantidadeQuestoes: Number(campoQuestoesAvaliacao.value)
+          })
+        });
+
+        const data = await response.json();
+        if (!response.ok || !data.ok) {
+          throw new Error(data.error || "Não foi possível criar a avaliação.");
+        }
+
+        mostrarMensagemAvaliacao(`Avaliação ${data.avaliacao.id} criada com sucesso.`, "success");
+        campoTituloAvaliacao.value = "";
+        campoQuestoesAvaliacao.value = "20";
+        campoTurmaAvaliacao.value = "";
+        await carregarAvaliacoes();
+      } catch (error) {
+        mostrarMensagemAvaliacao(error.message, "error");
+      } finally {
+        btnCriarAvaliacao.disabled = false;
+        btnCriarAvaliacao.textContent = "Criar avaliação";
+      }
+    });
+
+    btnAtualizarAvaliacoes.addEventListener("click", carregarAvaliacoes);
+    carregarTurmasAvaliacao();
+    carregarAvaliacoes();
 
   </script>
 
