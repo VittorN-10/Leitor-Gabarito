@@ -1,4 +1,5 @@
 const express = require("express");
+const avaliacoesRouter = require("./routes/avaliacoes");
 const multer = require("multer");
 const sharp = require("sharp");
 const path = require("path");
@@ -18,6 +19,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json({ limit: "2mb" }));
+app.use("/api/avaliacoes", avaliacoesRouter);
 
 const upload = multer({
   storage: multer.memoryStorage(),
